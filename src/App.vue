@@ -30,7 +30,11 @@ const date = new Date(timestamp);
 
       <article class="col-8">
         <div class="border border-2 p-2 h-100 bg-success-subtle border-success-subtle">
-          <router-view />
+          <router-view v-slot="{ Component }">
+            <transition name="fade" mode="out-in">
+              <component :is="Component"/>
+            </transition>
+          </router-view>
         </div>
       </article>
 
@@ -55,5 +59,14 @@ const date = new Date(timestamp);
   </footer>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
 </style>

@@ -3,7 +3,8 @@ import Bordered from '../components/Bordered.vue';
 </script>
 
 <template>
-  <h1>Code Stuff</h1>
+  <div id="code-stuff">
+    <h1>Code Stuff</h1>
   <p>This is stuff and thingies that I have made created myself! {{ `♡⸜(˶˃ ᵕ ˂˶)⸝♡` }}</p>
 
   <Bordered>
@@ -39,6 +40,7 @@ import Bordered from '../components/Bordered.vue';
     <p class="text-warning fw-bold">Publically archived</p>
     <p>A helper application for League of Legends that makes hextech crafting faster, easier, and flashier in just a few clicks!</p>
     <p>Needlework was created in TypeScript using Electron and Vue.js.</p>
+  </div>
 </template>
 
 <style lang="scss" scoped>
