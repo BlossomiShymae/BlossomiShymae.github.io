@@ -16,8 +16,8 @@ const date = new Date(timestamp);
   </header>
 
   <body class="container my-3">
-    <div class="row g-2">
-      <aside class="col-2">
+    <div class="row g-2 justify-content-center">
+      <aside class="col-12 col-lg-2">
         <div class="border border-2 p-2 h-100 bg-success-subtle border-success-subtle">
           <h4>Navigation</h4>
           <NavigationList :items="[
@@ -28,7 +28,7 @@ const date = new Date(timestamp);
         </div>
       </aside>
 
-      <article class="col-8">
+      <article class="col-12 col-lg-8">
         <div class="border border-2 p-2 h-100 bg-success-subtle border-success-subtle">
           <router-view v-slot="{ Component }">
             <transition name="fade" mode="out-in">
@@ -38,7 +38,7 @@ const date = new Date(timestamp);
         </div>
       </article>
 
-      <aside class="col-2">
+      <aside class="col-12 col-lg-2">
         <div class="border border-2 p-2 h-100 bg-success-subtle border-success-subtle">
           <h4>Links</h4>
           <LinkList :items="[
