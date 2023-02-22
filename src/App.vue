@@ -9,37 +9,36 @@
   <body class="container my-3">
     <div class="row">
       <aside class="col-2 border">
-        <ul>
-          <li>test</li>
-        </ul>
+        <h4>Navigation</h4>
+        <div class="list-group">
+          <router-link to="/" class="list-group-item list-group-item-action nav-item">
+            <span><iconify-icon icon="oi:home" class="me-2"/> Home</span>
+          </router-link>
+        </div>
       </aside>
 
       <article class="col-8 border">
-        <nav class="d-flex justify-content-between align-items-center border">
-          <router-link to="/">
-            <span><iconify-icon icon="oi:home"/></span>Home
-          </router-link>
-        </nav>
         <router-view />
       </article>
 
       <aside class="col-2 border">
-        <ul>
-          <li>testies</li>
-        </ul>
+     
       </aside>
     </div>
   </body>
 
   <footer class="container my-3 border">
     <div class="d-flex justify-content-around border">
-      <router-link to="/">
-        <span><iconify-icon icon="oi:home"/></span>Home
-      </router-link>
+      
     </div>
   </footer>
 </template>
 
 <style lang="scss">
-
+.list-group-item {
+  >span {
+    display: flex;
+    align-items: center;
+  }
+}
 </style>

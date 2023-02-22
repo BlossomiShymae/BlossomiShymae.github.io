@@ -1,1 +1,10 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@font-face {
+  font-family: 'Pixel Operator';
+  src: url('./assets/PixelOperator.ttf');
+}
+
+* {
+  font-family: 'Pixel Operator', 'Courier New', Courier, monospace;
+}
