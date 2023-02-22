@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import NavigationList from './components/NavigationList.vue';
+import LinkList from './components/LinkList.vue';
 </script>
 
 <template>
@@ -23,7 +24,11 @@ import NavigationList from './components/NavigationList.vue';
       </article>
 
       <aside class="col-2 border">
-     
+        <h4>Links</h4>
+        <LinkList :items="[
+          {text: 'GitHub', href: 'https://github.com/BlossomiShymae', icon: 'radix-icons:github-logo' },
+          {text: 'Reddit', href: 'https://www.reddit.com/user/MissUwuieTime', icon: 'mdi:reddit'}
+        ]"/>
       </aside>
     </div>
   </body>

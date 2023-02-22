@@ -8,7 +8,7 @@ const props = defineProps<{
 
 <template>
   <div v-for="item in items" class="list-group">
-    <router-link :to="item.to" class="list-group-item list-group-item-action nav-item">
+    <router-link :to="item.to" class="list-group-item list-group-item-action">
       <span><iconify-icon :icon="item.icon" class="me-2"/> {{item.text}}</span>
     </router-link>
   </div>
