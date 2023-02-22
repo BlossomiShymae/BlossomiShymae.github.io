@@ -14,7 +14,8 @@ import NavigationList from './components/NavigationList.vue';
         <NavigationList :items="[
           {text: 'Home', to: '/', icon: 'oi:home'},
           {text: 'Code Stuff', to: '/code-stuff', icon: 'oi:folder'},
-          {text: 'Community', to: '/community', icon: 'oi:people'}]"/>
+          {text: 'Community', to: '/community', icon: 'oi:people'},
+          {text: 'About', to: '/about', icon: 'oi:info'}]"/>
       </aside>
 
       <article class="col-8 border">

@@ -15,6 +15,10 @@ const router = createRouter({
     {
       path: "/community",
       component: () => import("./views/Community.vue"),
+    },
+    {
+      path: "/about",
+      component: () => import("./views/About.vue"),
     }
   ]
 });
