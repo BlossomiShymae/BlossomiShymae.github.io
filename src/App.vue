@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import NavigationList from './components/NavigationList.vue';
 import LinkList from './components/LinkList.vue';
+
+const timestamp = Date.now();
+const date = new Date(timestamp);
 </script>
 
 <template>
@@ -35,7 +38,7 @@ import LinkList from './components/LinkList.vue';
 
   <footer class="container my-3 border">
     <div class="d-flex justify-content-around border">
-      
+      <p class="text-muted fw-bold">BlossomiShymae © 2022 - {{ date.getFullYear() }}</p>
     </div>
   </footer>
 </template>
