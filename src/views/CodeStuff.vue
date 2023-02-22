@@ -37,7 +37,7 @@ import Bordered from '../components/Bordered.vue';
     </a>
     <h2>🪡 Needlework<span class="text-muted">, 8 June 2022</span></h2>
     <a href="https://github.com/BlossomiShymae/Needlework">GitHub link </a>
-    <p class="text-warning fw-bold">Publically archived</p>
+    <p class="text-warning fw-bold">Publicly archived</p>
     <p>A helper application for League of Legends that makes hextech crafting faster, easier, and flashier in just a few clicks!</p>
     <p>Needlework was created in TypeScript using Electron and Vue.js.</p>
   </div>
