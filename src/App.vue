@@ -10,7 +10,8 @@ const date = new Date(timestamp);
   <header class="container my-3">
     <div class="row g-0">
       <div class="border border-2 p-2 bg-success-subtle border-success-subtle">
-        <p class="fw-bold">BlossomiShymae.github.io 🌸 🏳️‍⚧️</p>
+        <p class="fw-bold font-monospace">🏳️‍⚧️ BlossomiShymae.github.io</p>
+        <marquee>Oh wowie, marquee still works? {{ `(づ๑•ᴗ•๑)づ♡ ༘*.ﾟ⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆ ʚ♡⃛ɞ(•ᴗ•❁)ʚ` }}</marquee>
       </div>
     </div>
   </header>
@@ -53,7 +54,7 @@ const date = new Date(timestamp);
   <footer class="container my-3">
     <div class="row g-0">
       <div class="d-flex justify-content-around border border-2 p-2 bg-success-subtle border-success-subtle">
-        <p class="text-muted fw-bold">BlossomiShymae © 2022 - {{ date.getFullYear() }}</p>
+        <p class="text-muted fw-bold">BlossomiShymae 🌸 © 2022 - {{ date.getFullYear() }}</p>
       </div>
     </div>
   </footer>
