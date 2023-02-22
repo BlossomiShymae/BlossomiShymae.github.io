@@ -7,6 +7,10 @@ const router = createRouter({
       path: "/",
       component: () => import("./views/Home.vue"),
       alias: "/home"
+    },
+    {
+      path: "/code-stuff",
+      component: () => import("./views/CodeStuff.vue"),
     }
   ]
 });
