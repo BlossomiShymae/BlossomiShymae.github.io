@@ -1,10 +1,11 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import 'https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap';
 
-@font-face {
-  font-family: 'Pixel Operator';
-  src: url('./assets/PixelOperator.ttf');
+html, body {
+  background-color: $pink-100;
 }
 
 * {
-  font-family: 'Pixel Operator', 'Courier New', Courier, monospace;
+  font-display: swap !important;
+  font-family: 'Oxygen' !important;
 }

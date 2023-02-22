@@ -4,7 +4,7 @@
 
 <template>
   <h1>About Blossomi Shymae</h1>
-  <p><span class="text-pink">she/her</span> | <span class="text-greenish">INFP</span></p>
+  <span class="badge bg-secondary rounded-pill mb-2 me-2 text-pink fw-bolder">she/her</span><span class="badge bg-secondary rounded-pill mb-2 text-greenish fw-bolder">INFP</span>
 
   <p>Shymae is the first name of the pseudonym, hehe. I'm a very shy trans lady that wants to be herself. I primarily code but I also like to digitally draw sometimes.... {{ `>.<` }}</p>
   <p>I'm literally a real life <a href="https://anilist.co/character/257562/Hitori-Gotou">Hitori Goto</a> or <a href="https://anilist.co/character/128986/Bocchi-Hitori">Bocchi Hitori</a> but older.
