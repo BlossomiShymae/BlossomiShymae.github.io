@@ -19,6 +19,22 @@ const router = createRouter({
     {
       path: "/about",
       component: () => import("./views/About.vue"),
+    }, 
+    {
+      path: "/mvvm",
+      component: () => import("./views/MVVM.vue"),
+    },
+    {
+      path: "/service-layer",
+      component: () => import("./views/ServiceLayer.vue"),
+    },
+    {
+      path: "/composition",
+      component: () => import("./views/Composition.vue")
+    },
+    {
+      path: "/dependency-injection",
+      component: () => import("./views/DependencyInjection.vue")
     }
   ]
 });

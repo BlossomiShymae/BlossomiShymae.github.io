@@ -32,7 +32,7 @@ const date = new Date(timestamp);
       <article class="col-12 col-lg-8">
         <div class="border border-2 p-2 h-100 bg-success-subtle border-success-subtle">
           <router-view v-slot="{ Component }">
-            <transition name="fade" mode="out-in">
+          <transition name="fade" mode="out-in">
               <component :is="Component"/>
             </transition>
           </router-view>
@@ -45,6 +45,13 @@ const date = new Date(timestamp);
           <LinkList :items="[
             {text: 'GitHub', href: 'https://github.com/BlossomiShymae', icon: 'radix-icons:github-logo' },
             {text: 'Reddit', href: 'https://www.reddit.com/user/MissUwuieTime', icon: 'mdi:reddit'}
+          ]"/>
+          <h4 class="mt-2">Resources</h4>
+          <NavigationList :items="[
+            {text: 'MVVM', to:'/mvvm', icon:'material-symbols:view-comfy-sharp'},
+            {text: 'Service layer', to: '/service-layer', icon:'ic:baseline-miscellaneous-services'},
+            {text: 'Composition', to: '/composition', icon: 'simple-icons:jetpackcompose'},
+            {text: 'Dependency injection', to: '/dependency-injection', icon: 'icon-park-solid:injection'},
           ]"/>
         </div>
       </aside>
