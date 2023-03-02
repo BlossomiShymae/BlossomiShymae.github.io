@@ -8,6 +8,10 @@
       can get tiresome...)! I still have soooo much to learn but I think it is
       totes' worth it! {{ `(๑'ᵕ'๑)⸝*` }}
     </p>
+    <h2 id="gwen-chibi">
+      Gwen Chibi<span class="text-muted">, 1 March 2023</span>
+    </h2>
+    <img :src="`./gwen_chibi.png`" loading="lazy" class="img-fluid" />
   </div>
 </template>
 
