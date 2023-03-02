@@ -1,13 +1,12 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Badge from "../components/Badge.vue";
+</script>
 
 <template>
   <div id="about">
     <h1>About Blossomi Shymae</h1>
-    <span class="badge bg-secondary rounded-pill mb-2 me-2 text-pink fw-bolder"
-      >she/her</span
-    ><span class="badge bg-secondary rounded-pill mb-2 text-greenish fw-bolder"
-      >INFP-T</span
-    >
+    <Badge css="mb-2 me-2 text-pink">she/her</Badge>
+    <Badge css="mb-2 text-greenish">INFP-T</Badge>
 
     <p>
       Shymae is the first name of the pseudonym, hehe. I'm a very shy trans lady
