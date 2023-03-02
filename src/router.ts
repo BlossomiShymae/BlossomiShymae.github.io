@@ -6,7 +6,7 @@ const router = createRouter({
     {
       path: "/",
       component: () => import("./views/Home.vue"),
-      alias: "/home"
+      alias: "/home",
     },
     {
       path: "/code-stuff",
@@ -19,7 +19,7 @@ const router = createRouter({
     {
       path: "/about",
       component: () => import("./views/About.vue"),
-    }, 
+    },
     {
       path: "/mvvm",
       component: () => import("./views/MVVM.vue"),
@@ -30,13 +30,17 @@ const router = createRouter({
     },
     {
       path: "/composition",
-      component: () => import("./views/Composition.vue")
+      component: () => import("./views/Composition.vue"),
     },
     {
       path: "/dependency-injection",
-      component: () => import("./views/DependencyInjection.vue")
-    }
-  ]
+      component: () => import("./views/DependencyInjection.vue"),
+    },
+    {
+      path: "/art",
+      component: () => import("./views/Art.vue"),
+    },
+  ],
 });
 
 export default router;
