@@ -1,0 +1,1 @@
+import{d as a,o as n,c as o,r,n as l}from"./index-3a7ae816.js";const d=a({__name:"Badge",props:{css:null},setup(e){return(s,t)=>(n(),o("span",{class:l("badge bg-secondary-subtle rounded-pill fw-bolder "+e.css)},[r(s.$slots,"default")],2))}});export{d as _};
