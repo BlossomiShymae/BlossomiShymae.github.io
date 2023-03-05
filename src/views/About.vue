@@ -4,27 +4,31 @@ import Badge from "../components/Badge.vue";
 
 <template>
   <div id="about">
-    <h1>About Blossomi Shymae</h1>
+    <h1>About</h1>
     <Badge css="mb-2 me-2 text-pink">she/her</Badge>
-    <Badge css="mb-2 text-greenish">INFP-T</Badge>
+    <Badge css="mb-2 text-greenish">infp-t</Badge>
 
+    <h2>Lore</h2>
     <p>
-      Shymae is the first name of the pseudonym, hehe. I'm a very shy trans lady
-      that wants to be herself. I primarily code but I also like to digitally
-      draw sometimes.... {{ `>.<` }}
+      Shymae, a phanstasma elf, once wandered in a perverse alternate dimension
+      where the dark overcame the light. Her full name is Blossomi Shymae. Only
+      the phantasmagoria of liminal spaces remained. She has accessed this world
+      via a linked corridor that disappeared as quickly as it appeared. A hope
+      of a future blossoms in her heart.
     </p>
     <p>
-      I'm literally a real life
-      <a href="https://anilist.co/character/257562/Hitori-Gotou">Hitori Goto</a>
-      or
-      <a href="https://anilist.co/character/128986/Bocchi-Hitori"
-        >Bocchi Hitori</a
-      >
-      but older. It is very hard to share, talk, or discuss anything without
-      catastrophizing. The feeling of wanting friends but also being unable to
-      be yourself is very heartbreaking.... :c
+      It is unknown when she came to existence due to the transitioning reality
+      of her dimension. She is quite shy from wandering the gaps.
+      <i>Trying to find herself is now her main objective.</i>
+    </p>
+    <p>
+      Being a phantasma elf, she can transition her dreams into the current
+      reality, being able to rewrite the truth with her phantasma magic. Shymae
+      rarely uses her abilities for combat, being a pacifist or a recreant, only
+      when out of self-perservation.
     </p>
 
+    <h2>Contact me</h2>
     <p>
       I can be found in the
       <a href="https://discord.com/invite/riotgamesdevrel"
