@@ -7,24 +7,21 @@ const date = new Date(timestamp);
 </script>
 
 <template>
-  <header class="container my-3">
+  <header>
     <div class="row g-0">
-      <div class="border border-2 p-2 bg-success-subtle border-success-subtle">
-        <p class="fw-bold font-monospace">🏳️‍⚧️ BlossomiShymae.github.io</p>
-        <marquee
-          >Oh wowie, marquee still works?
-          {{ `(づ๑•ᴗ•๑)づ♡ ༘*.ﾟ⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆ ʚ♡⃛ɞ(•ᴗ•❁)ʚ` }}</marquee
-        >
+      <div class="p-2 border-success-subtle bg-shymae">
+        <p class="fw-bold font-monospace text-dark m-0">
+          <span class="fw-bolder fs-4">blossomishymae.github.io</span>
+          {{ `(づ๑•ᴗ•๑)づ♡ ༘*.ﾟ⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆ ʚ♡⃛ɞ(•ᴗ•❁)ʚ` }}
+        </p>
       </div>
     </div>
   </header>
 
-  <body class="container my-3">
-    <div class="row g-2 justify-content-center">
+  <body>
+    <div class="row g-0 justify-content-center">
       <aside class="col-12 col-lg-2">
-        <div
-          class="border border-2 p-2 h-100 bg-success-subtle border-success-subtle"
-        >
+        <div class="p-2 h-100 bg-success-subtle border-success-subtle">
           <h4>Navigation</h4>
           <NavigationList
             :items="[
@@ -39,9 +36,7 @@ const date = new Date(timestamp);
       </aside>
 
       <article class="col-12 col-lg-8">
-        <div
-          class="border border-2 p-2 h-100 bg-success-subtle border-success-subtle"
-        >
+        <div class="p-2 h-100 bg-success-subtle border-success-subtle">
           <router-view v-slot="{ Component }">
             <transition name="fade" mode="out-in">
               <component :is="Component" />
@@ -51,9 +46,7 @@ const date = new Date(timestamp);
       </article>
 
       <aside class="col-12 col-lg-2">
-        <div
-          class="border border-2 p-2 h-100 bg-success-subtle border-success-subtle"
-        >
+        <div class="p-2 h-100 bg-success-subtle border-success-subtle">
           <h4>Links</h4>
           <LinkList
             :items="[
@@ -99,13 +92,13 @@ const date = new Date(timestamp);
     </div>
   </body>
 
-  <footer class="container my-3">
+  <footer>
     <div class="row g-0">
       <div
-        class="d-flex justify-content-around border border-2 p-2 bg-success-subtle border-success-subtle"
+        class="d-flex justify-content-around p-2 bg-success-subtle border-success-subtle"
       >
         <p class="text-muted fw-bold">
-          BlossomiShymae 🌸 © 2022 - {{ date.getFullYear() }}
+          🏳️‍⚧️ BlossomiShymae 🌸 © 2022 - {{ date.getFullYear() }}
         </p>
       </div>
     </div>
@@ -121,5 +114,9 @@ const date = new Date(timestamp);
 .fade-enter-from,
 .fade-leave-to {
   opacity: 0;
+}
+
+.bg-shymae {
+  background-color: #73d17e !important;
 }
 </style>

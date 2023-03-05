@@ -5,7 +5,9 @@ const props = defineProps<{
 </script>
 
 <template>
-  <span :class="'badge bg-secondary rounded-pill fw-bolder ' + css ?? ''">
+  <span
+    :class="'badge bg-secondary-subtle rounded-pill fw-bolder ' + css ?? ''"
+  >
     <slot></slot>
   </span>
 </template>

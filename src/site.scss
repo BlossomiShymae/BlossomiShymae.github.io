@@ -2,7 +2,11 @@
 @import 'https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap';
 
 html, body {
-  background-color: $pink-100;
+  background-color: #000000;
+}
+
+.bg-success-subtle {
+  background-color: #000000 !important;
 }
 
 * {
