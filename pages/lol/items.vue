@@ -41,15 +41,8 @@
 </template>
 
 <script lang="ts" setup>
-import axios from "axios";
+import { useVersions, useItems } from "~/composables/dataDragon";
 
-const versionResponse = await axios.get(
-  "https://ddragon.leagueoflegends.com/api/versions.json"
-);
-const version = versionResponse.data[0] as string;
-
-const itemsResponse = await axios.get(
-  `https://ddragon.leagueoflegends.com/cdn/${version}/data/en_US/item.json`
-);
-const items = itemsResponse.data["data"];
+const { version } = await useVersions();
+const items = await useItems(version);
 </script>
