@@ -1,4 +1,3 @@
-import { NuxtLogo } from './.nuxt/components';
 <template>
   <div style="padding-left: calc(100vw - 100%)">
     <header
@@ -97,6 +96,15 @@ import { NuxtLogo } from './.nuxt/components';
                 LoL Champions
               </NuxtLink>
             </li>
+            <li class="mb-1">
+              <NuxtLink
+                to="/lol/runes"
+                class="btn rounded text-decoration-none hover-dim w-100 text-start"
+              >
+                <PhCirclesThree :size="24" color="black" weight="fill" />
+                LoL Runes
+              </NuxtLink>
+            </li>
           </ul>
           <div class="d-flex justify-content-center w-100">
             <p>
@@ -143,5 +151,6 @@ import {
   PhBoot,
   PhUser,
   PhKeyboard,
+  PhCirclesThree,
 } from "@phosphor-icons/vue";
 </script>
