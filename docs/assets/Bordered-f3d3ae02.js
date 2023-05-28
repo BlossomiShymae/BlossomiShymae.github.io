@@ -1,1 +1,0 @@
-import{_ as o,o as r,c as s,r as c}from"./index-3a7ae816.js";const t={},n={class:"border-success border-bottom"};function a(e,d){return r(),s("div",n,[c(e.$slots,"default")])}const l=o(t,[["render",a]]);export{l as B};
