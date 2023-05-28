@@ -78,6 +78,14 @@
                 LoL Items
               </NuxtLink>
             </li>
+            <li class="mb-1">
+              <NuxtLink
+              to="/lol/champions"
+              class="btn rounded text-decoration-none hover-dim w-100 text-start">
+              <PhUser :size="24" color="black" weight="fill" />
+              LoL Champions
+            </NuxtLink>
+            </li>
           </ul>
         </nav>
       </aside>
@@ -103,5 +111,6 @@ import {
   PhRedditLogo,
   Logo,
   PhBoot,
+PhUser,
 } from "@phosphor-icons/vue";
 </script>

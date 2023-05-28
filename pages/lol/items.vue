@@ -46,7 +46,7 @@ import axios from "axios";
 const versionResponse = await axios.get(
   "https://ddragon.leagueoflegends.com/api/versions.json"
 );
-const version = versionResponse.data[0] as number;
+const version = versionResponse.data[0] as string;
 
 const itemsResponse = await axios.get(
   `https://ddragon.leagueoflegends.com/cdn/${version}/data/en_US/item.json`
