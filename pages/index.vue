@@ -11,8 +11,8 @@
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">
         Totes radical homepage of your shy gloomy elf girl.
-        <small class="fs-6">Derp sheep not included.</small>
       </p>
+      <p class="fs-tiny">Derp sheep not included.</p>
     </div>
   </div>
 </template>

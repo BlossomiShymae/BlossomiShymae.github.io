@@ -41,6 +41,10 @@
   background-color: #77d69420;
 }
 
+.fs-tiny {
+  font-size: 0.6rem;
+}
+
 .container-grid {
   display: grid;
   gap: 1.5rem;

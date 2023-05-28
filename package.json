@@ -13,6 +13,7 @@
     "nuxt": "^3.5.1"
   },
   "dependencies": {
-    "@phosphor-icons/vue": "^2.1.4"
+    "@phosphor-icons/vue": "^2.1.4",
+    "axios": "^1.4.0"
   }
 }
