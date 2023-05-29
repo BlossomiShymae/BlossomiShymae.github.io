@@ -105,6 +105,15 @@
                 LoL Runes
               </NuxtLink>
             </li>
+            <li class="mb-1">
+              <NuxtLink
+                to="/lol/summoner-icons"
+                class="btn rounded text-decoration-none hover-dim w-100 text-start"
+              >
+                <PhUserCircle :size="24" color="black" weight="fill" />
+                LoL Summoner Icons
+              </NuxtLink>
+            </li>
           </ul>
           <div class="d-flex justify-content-center w-100">
             <p>
@@ -150,6 +159,7 @@ import {
   PhRedditLogo,
   PhBoot,
   PhUser,
+  PhUserCircle,
   PhKeyboard,
   PhCirclesThree,
 } from "@phosphor-icons/vue";
