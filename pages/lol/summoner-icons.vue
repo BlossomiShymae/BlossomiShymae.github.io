@@ -11,7 +11,7 @@
       </thead>
       <tbody>
         <tr
-          v-for="icon in icons"
+          v-for="icon in pages[index]"
           :id="icon.id"
           :class="`${icon.isLegacy === true ? 'table-info' : ''}`"
         >
@@ -41,12 +41,45 @@
         </tr>
       </tbody>
     </table>
+    <nav aria-label="Navigation">
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="#" @click="first()">
+            <PhArrowLineLeft :size="16" color="black" weight="fill" />
+          </a>
+        </li>
+        <li class="page-item" v-if="index > 0" @click="prev()">
+          <a class="page-link" href="#">{{ index }}</a>
+        </li>
+        <li class="page-item active">
+          <a class="page-link" href="#">{{ index + 1 }}</a>
+        </li>
+        <li class="page-item" v-if="index < count - 1" @click="next()">
+          <a class="page-link" href="#">{{ index + 2 }}</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#" @click="last()">
+            <PhArrowLineRight :size="16" color="black" weight="fill" />
+          </a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </template>
 
 <script lang="ts" setup>
-import { PhCheckCircle, PhQuestion } from "@phosphor-icons/vue";
+import {
+  PhArrowLineLeft,
+  PhArrowLineRight,
+  PhCheckCircle,
+  PhQuestion,
+} from "@phosphor-icons/vue";
 import { useSummonerIcons } from "~/composables/communityDragon";
+import { usePagination } from "~/composables/pagination";
 
 const icons = await useSummonerIcons();
+const { count, pages, index, prev, next, first, last } = usePagination(
+  icons,
+  100
+);
 </script>
