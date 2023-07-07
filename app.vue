@@ -1,7 +1,7 @@
 <template>
   <div>
     <header
-      class="bg-accent bg-accent-20 sticky-top py-2"
+      class="bg-accent bg-accent-20 sticky-top py-2 border-bottom"
       style="z-index: 2000; backdrop-filter: blur(4px)"
     >
       <div class="container container-grid">
