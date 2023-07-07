@@ -7,10 +7,12 @@
       <div class="container container-grid">
         <div class="grid-aside w-100">
           <div class="d-flex align-content-center align-items-center w-100">
-            <div class="me-2 rounded">
-              <img src="/favicon.png" id="favicon" />
+            <div class="me-2 rounded-circle bg-success-subtle">
+              <img src="/favicon.png" class="rounded-circle p-1" id="favicon" />
             </div>
-            <h4 class="fw-light">blossomishymae.github.io</h4>
+            <h4 class="fw-normal">
+              blossomishymae.<span class="text-secondary">github.io</span>
+            </h4>
           </div>
         </div>
         <div class="grid-content ps-4 w-100">
