@@ -1,6 +1,6 @@
 <template>
   <div class="px-4 pt-5 my-5 text-center border-bottom">
-    <h1 class="display-5 fw-bold">blossomishymae.github.io</h1>
+    <h2 class="fw-bold">Blossomi Shymae 🌸💔</h2>
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">
         Totes radical homepage of your shy gloomy elf girl.
