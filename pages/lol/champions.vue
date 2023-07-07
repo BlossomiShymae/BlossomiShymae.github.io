@@ -33,7 +33,7 @@
 </template>
 
 <script lang="ts" setup>
-import { useVersions } from "~/composables/dataDragon";
+import { useVersions, useChampions } from "~/composables/dataDragon";
 
 const { version } = await useVersions();
 const champions = await useChampions(version);
