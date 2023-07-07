@@ -7,7 +7,7 @@
       <div class="container container-grid">
         <div class="grid-aside w-100">
           <div class="d-flex align-content-center align-items-center w-100">
-            <div class="me-2 rounded-circle bg-success-subtle">
+            <div class="me-2 rounded-circle bg-accent-secondary-20">
               <img src="/favicon.png" class="rounded-circle p-1" id="favicon" />
             </div>
             <h4 class="fw-normal">
@@ -69,57 +69,57 @@
           class="sticky-top overflow-y-auto h-100 d-flex flex-column py-3"
         >
           <ul
-            class="mb-2 list-unstyled flex-column border-bottom border-accent"
+            class="mb-2 pb-3 list-unstyled flex-column border-bottom border-accent"
           >
-            <li class="mb-1">
+            <li class="mb-2">
               <NuxtLink
                 to="/"
-                class="btn rounded text-decoration-none hover-dim w-100 text-start"
+                class="btn bg-accent-20 fw-semibold rounded-pill text-decoration-none hover-accent-dim w-100 text-start"
               >
                 <PhHouse :size="24" color="black" weight="fill" />
                 Home
               </NuxtLink>
             </li>
-            <li class="mb-1">
+            <li class="mb-2">
               <NuxtLink
                 to="/blog/programming-thingies"
-                class="btn rounded text-decoration-none hover-dim w-100 text-start"
+                class="btn bg-accent-20 fw-semibold rounded-pill text-decoration-none hover-accent-dim w-100 text-start"
               >
                 <PhKeyboard :size="24" color="black" weight="fill" />
                 Programming Thingies
               </NuxtLink>
             </li>
-            <li class="mb-1">
+            <li class="mb-2">
               <NuxtLink
                 to="/lol/items"
-                class="btn rounded text-decoration-none hover-dim w-100 text-start"
+                class="btn bg-accent-20 fw-semibold rounded-pill text-decoration-none hover-accent-dim w-100 text-start"
               >
                 <PhBoot :size="24" color="black" weight="fill" />
                 LoL Items
               </NuxtLink>
             </li>
-            <li class="mb-1">
+            <li class="mb-2">
               <NuxtLink
                 to="/lol/champions"
-                class="btn rounded text-decoration-none hover-dim w-100 text-start"
+                class="btn bg-accent-20 fw-semibold rounded-pill text-decoration-none hover-accent-dim w-100 text-start"
               >
                 <PhUser :size="24" color="black" weight="fill" />
                 LoL Champions
               </NuxtLink>
             </li>
-            <li class="mb-1">
+            <li class="mb-2">
               <NuxtLink
                 to="/lol/runes"
-                class="btn rounded text-decoration-none hover-dim w-100 text-start"
+                class="btn bg-accent-20 fw-semibold rounded-pill text-decoration-none hover-accent-dim w-100 text-start"
               >
                 <PhCirclesThree :size="24" color="black" weight="fill" />
                 LoL Runes
               </NuxtLink>
             </li>
-            <li class="mb-1">
+            <li class="mb-2">
               <NuxtLink
                 to="/lol/summoner-icons"
-                class="btn rounded text-decoration-none hover-dim w-100 text-start"
+                class="btn bg-accent-20 fw-semibold rounded-pill text-decoration-none hover-accent-dim w-100 text-start"
               >
                 <PhUserCircle :size="24" color="black" weight="fill" />
                 LoL Summoner Icons
