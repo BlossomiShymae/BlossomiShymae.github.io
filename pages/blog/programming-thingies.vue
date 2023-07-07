@@ -24,8 +24,8 @@
       subtitle="c#, .NET"
       repository="https://github.com/BlossomiShymae/RiotBlossom"
     >
-      An asynchronous, extensible and magical .NET library to make things totes
-      easier!
+      An asynchronous, extensible and magical .NET library for the Riot Games
+      API to make things totes easier!
     </SideHero>
     <SideHero
       image="https://camo.githubusercontent.com/1ce795bd08cff6027b3ae44c94df67bfe3177e11c929664c857e3cb9ed30ff23/68747470733a2f2f6c6f6c63646e2e6461726b696e746171742e636f6d2f63646e2f6368616c6c656e67652d707265766965772e706e67"
