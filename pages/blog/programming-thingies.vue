@@ -9,6 +9,15 @@
       >
     </p>
     <SideHero
+      image="https://user-images.githubusercontent.com/87099578/250685083-21cf6845-426f-4567-a73e-78311f6f4de7.png"
+      title="llux"
+      badge="creator"
+      subtitle="rust"
+      repository="https://github.com/BlossomiShymae/llux"
+    >
+      Transfer data to the LCU via the command-line interface! 🌟
+    </SideHero>
+    <SideHero
       image="https://raw.githubusercontent.com/BlossomiShymae/RiotBlossom/master/BlossomiShymae.RiotBlossomDocs/public/img/riotblossom.png"
       title="RiotBlossom"
       badge="creator"
