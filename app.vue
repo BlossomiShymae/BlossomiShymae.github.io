@@ -17,24 +17,28 @@
           <a
             href="https://github.com/BlossomiShymae"
             class="me-2 hover-dim rounded p-2"
+            title="GitHub"
           >
             <PhGithubLogo :size="24" color="black" weight="fill" />
           </a>
           <a
             href="https://reddit.com/u/MissUwuieTime"
             class="me-2 hover-dim rounded p-2"
+            title="Reddit"
           >
             <PhRedditLogo :size="24" color="black" weight="fill" />
           </a>
           <a
             href="https://twitter.com/blossomishymae"
             class="me-2 hover-dim rounded p-2"
+            title="Twitter"
           >
             <PhTwitterLogo :size="24" color="black" weight="fill" />
           </a>
           <a
             href="https://tumblr.com/blossomishymae"
             class="me-2 hover-dim rounded p-2"
+            title="Tumblr"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
