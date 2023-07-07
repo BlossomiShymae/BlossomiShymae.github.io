@@ -1,7 +1,13 @@
 :root {
-  --website-header-height: 62px;
+  --favicon-size: 48px;
+  --website-header-height: calc(var(--favicon-size) + 16px);
   --color: black;
   --accent-color: #77d694;
+}
+
+#favicon {
+  width: var(--favicon-size);
+  height: var(--favicon-size);
 }
 
 .text-decoration-none {
