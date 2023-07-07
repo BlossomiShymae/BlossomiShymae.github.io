@@ -1,35 +1,39 @@
 <template>
-  <div class="px-4 py-4 row">
+  <div class="px-4 py-4">
     <h2>League of Legends Champions Viewer</h2>
     <h5 class="text-muted">Patch {{ version }}</h5>
-    <div class="d-flex flex-wrap justify-content-around">
-      <div v-for="champion in champions" :id="champion.key">
-        <div class="d-flex flex-column m-1 mb-2">
-          <div class="img-fluid d-flex justify-content-center">
-            <img
-              style="width: 100px; margin-bottom: -2rem; z-index: 1000"
-              class="rounded shadow-sm"
-              :src="`http://ddragon.leagueoflegends.com/cdn/13.10.1/img/champion/${champion.image.full}`"
-              loading="lazy"
-            />
-          </div>
-          <div class="card p-2 m-2 pt-3" style="max-width: 320px">
-            <div class="card-body">
-              <h5 class="card-title mb-0">{{ champion.name }}</h5>
-              <p class="lead ps-4">{{ champion.title }}</p>
-              <p class="card-text">
-                ID: <span class="fw-bold">{{ champion.key }}</span>
-              </p>
+    <table class="table table-striped table-hover">
+      <thead>
+        <th scope="col">ID</th>
+        <th scope="col">Icon</th>
+        <th scope="col">Key</th>
+        <th scope="col">Name</th>
+        <th scope="col">Title</th>
+      </thead>
+      <tbody>
+        <tr v-for="champion in champions" :id="champion.key">
+          <th scope="row">{{ champion.key }}</th>
+          <td>
+            <div class="img-fluid">
+              <img
+                :src="`http://ddragon.leagueoflegends.com/cdn/${version}/img/champion/${champion.image.full}`"
+                style="width: 24px"
+                class="rounded"
+                loading="lazy"
+              />
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
+          </td>
+          <td>{{ champion.id }}</td>
+          <td>{{ champion.name }}</td>
+          <td>{{ champion.title }}</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </template>
 
 <script lang="ts" setup>
-import { useVersions, usePerks } from "~/composables/dataDragon";
+import { useVersions } from "~/composables/dataDragon";
 
 const { version } = await useVersions();
 const champions = await useChampions(version);
