@@ -142,7 +142,7 @@
         </nav>
       </aside>
       <article id="main-content" class="order-1 grid-content ps-4 pb-4">
-        <NuxtPage />
+        <NuxtPage keepalive />
       </article>
     </main>
     <div class="container">
