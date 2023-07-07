@@ -6,8 +6,8 @@
     >
       <div class="grid-aside w-100">
         <div class="d-flex align-content-center align-items-center w-100">
-          <div class="img-fluid img-thumbnail me-2">
-            <img src="/favicon.png" width="32" height="32" />
+          <div class="me-2 rounded">
+            <img src="/favicon.png" width="48" height="48" />
           </div>
           <h4 class="fw-light">blossomishymae.github.io</h4>
         </div>
