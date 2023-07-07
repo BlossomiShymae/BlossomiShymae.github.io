@@ -44,7 +44,8 @@
       subtitle="python, pyqt5"
       repository="https://github.com/BlossomiShymae/monsoon"
     >
-      A lightweight client overlay that shows ARAM balance changes.
+      A lightweight client overlay for League of Legends that shows ARAM balance
+      changes.
     </SideHero>
     <SideHero
       image="https://shieldbow.thedrone7.dev/Shieldbow.png"
