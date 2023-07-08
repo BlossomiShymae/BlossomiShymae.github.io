@@ -1,7 +1,16 @@
 :root {
-  --website-header-height: 62px;
+  --favicon-size: 48px;
+  --website-header-height: calc(var(--favicon-size) + 16px + 1px);
   --color: black;
   --accent-color: #77d694;
+  --accent-color-20: #77d69420;
+  --accent-secondary-color: #9f16b1;
+  --accent-secondary-color-20: #9f16b120;
+}
+
+#favicon {
+  width: var(--favicon-size);
+  height: var(--favicon-size);
 }
 
 .text-decoration-none {
@@ -15,6 +24,17 @@
 
 .hover-dim:hover {
   background-color: #00000040 !important;
+}
+
+.hover-accent-dim {
+  background-color: inherit;
+  color: inherit;
+  transition: all 250ms;
+}
+
+.hover-accent-dim:hover {
+  color: black;
+  background-color: var(--accent-color);
 }
 
 .hover-underline {
@@ -37,8 +57,16 @@
   background-color: var(--accent-color);
 }
 
+.bg-accent-secondary {
+  background-color: var(--accent-secondary-color);
+}
+
 .bg-accent-20 {
-  background-color: #77d69420;
+  background-color: var(--accent-color-20);
+}
+
+.bg-accent-secondary-20 {
+  background-color: var(--accent-secondary-color-20);
 }
 
 .fs-tiny {
