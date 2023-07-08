@@ -26,6 +26,15 @@
   background-color: #00000040 !important;
 }
 
+.hover-dark-dim {
+  background-color: inherit;
+  transition: all 250ms;
+}
+
+.hover-dark-dim:hover {
+  background-color: #000000A0 !important;
+}
+
 .hover-accent-dim {
   background-color: inherit;
   color: inherit;
