@@ -1,0 +1,103 @@
+<template>
+  <div
+    id="carrd-page"
+    class="d-flex justify-content-center align-items-center vh-100"
+  >
+    <div id="carrd" class="card py-4 shadow rounded-4">
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="bg-accent rounded-circle mx-2 mb-4">
+          <img
+            src="/img/avatar.png"
+            class="rounded-circle p-2"
+            id="carrd-avatar"
+          />
+        </div>
+      </div>
+      <div class="text-center">
+        <h3 class="fw-bold">Blossomi Shymae 🌸💔</h3>
+        <p class="lead">Virtual coder and web denizen</p>
+      </div>
+      <ul
+        class="mb-2 p-4 list-unstyled flex-column border-none border-dark-subtle border-top border-bottom"
+      >
+        <li class="mb-2">
+          <NuxtLink to="/" :class="linkCss">
+            <div>GittyHub.io</div>
+            <PhPower :size="32" color="white" weight="light" />
+          </NuxtLink>
+        </li>
+        <li class="mb-2">
+          <a href="https://github.com/BlossomiShymae" :class="linkCss">
+            GittyHub
+            <PhGithubLogo :size="32" color="white" weight="fill" />
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="https://reddit.com/u/MissUwuieTime" :class="linkCss">
+            Reddit
+            <PhRedditLogo :size="32" color="white" weight="fill" />
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="https://tumblr.com/blossomishymae" :class="linkCss">
+            Tumblr
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="white"
+                d="M14.563 24c-5.093 0-7.031-3.756-7.031-6.411V9.747H5.116V6.648c3.63-1.313 4.512-4.596 4.71-6.469C9.84.051 9.941 0 9.999 0h3.517v6.114h4.801v3.633h-4.82v7.47c.016 1.001.375 2.371 2.207 2.371h.09c.631-.02 1.486-.205 1.936-.419l1.156 3.425c-.436.636-2.4 1.374-4.156 1.404h-.178l.011.002z"
+              />
+            </svg>
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="https://twitter.com/BlossomiShymae" :class="linkCss">
+            Cursed Birb
+            <PhTwitterLogo :size="32" color="white" weight="fill" />
+          </a>
+        </li>
+      </ul>
+      <div class="card-body text-center fw-semibold">
+        <p>Not affiliated or endorsed with carrd.co 💜</p>
+      </div>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+#carrd-page {
+  background-image: url("/img/carrd_bg.png");
+  background-position: right;
+  background-size: cover;
+}
+
+#carrd {
+  width: 24rem;
+  background-color: #ffffffd0;
+}
+
+#carrd-avatar {
+  width: 200px;
+  height: 200px;
+}
+</style>
+
+<script lang="ts" setup>
+import {
+  PhPower,
+  PhGithubLogo,
+  PhRedditLogo,
+  PhTwitterLogo,
+} from "@phosphor-icons/vue";
+
+const linkCss =
+  "fs-5 px-4 d-flex justify-content-between align-items-center btn bg-accent-secondary text-light fw-semibold rounded-3 text-decoration-none hover-accent-dim w-100 text-start";
+
+definePageMeta({
+  layout: "pageless",
+});
+</script>
