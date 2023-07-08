@@ -1,5 +1,5 @@
 <template>
-    <div>
+  <div>
     <header
       class="bg-accent bg-accent-20 sticky-top py-2 border-bottom"
       style="z-index: 2000; backdrop-filter: blur(4px)"
@@ -19,6 +19,13 @@
           <div
             class="d-flex justify-content-end align-items-center w-100 h-100"
           >
+            <NuxtLink
+              to="/carrd"
+              class="me-2 hover-dim rounded p-2"
+              title="Carrd"
+            >
+              <PhCards :size="24" color="black" weight="fill" />
+            </NuxtLink>
             <a
               href="https://github.com/BlossomiShymae"
               class="me-2 hover-dim rounded p-2"
@@ -173,5 +180,6 @@ import {
   PhUserCircle,
   PhKeyboard,
   PhCirclesThree,
+  PhCards,
 } from "@phosphor-icons/vue";
 </script>
