@@ -4,12 +4,20 @@
     class="d-flex justify-content-center align-items-center vh-100"
   >
     <div id="carrd" class="card py-4 shadow rounded-4">
-      <div class="d-flex justify-content-center align-items-center">
-        <div class="bg-accent rounded-circle mx-2 mb-4">
+      <div
+        class="d-flex justify-content-center align-items-center"
+        style="position: relative"
+      >
+        <div
+          class="rounded-circle mx-2 mb-4"
+          id="spinner"
+          style="position: absolute"
+        ></div>
+        <div class="rounded-circle mx-2 mb-4" style="z-index: 1">
           <img
-            src="/img/avatar.png"
-            class="rounded-circle p-2"
+            class="rounded-circle p-1"
             id="carrd-avatar"
+            src="/img/avatar.png"
           />
         </div>
       </div>
@@ -70,6 +78,9 @@
 
 <style scoped>
 #carrd-page {
+  --avatar-height: 200px;
+  --avatar-width: 200px;
+
   background-image: url("/img/carrd_bg.png");
   background-position: right;
   background-size: cover;
@@ -77,12 +88,29 @@
 
 #carrd {
   width: 24rem;
-  background-color: #ffffffd0;
+  background-color: #ffffffe0;
 }
 
 #carrd-avatar {
-  width: 200px;
-  height: 200px;
+  width: var(--avatar-width);
+  height: var(--avatar-height);
+}
+
+#spinner {
+  background: conic-gradient(
+    rgb(81, 224, 141),
+    rgb(157, 40, 180),
+    rgb(81, 224, 141)
+  );
+  animation: spin 2s linear infinite;
+  width: var(--avatar-width);
+  height: var(--avatar-height);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
 }
 </style>
 
