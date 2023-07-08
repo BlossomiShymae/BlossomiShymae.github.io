@@ -95,7 +95,7 @@ import {
 } from "@phosphor-icons/vue";
 
 const linkCss =
-  "fs-5 px-4 d-flex justify-content-between align-items-center btn bg-accent-secondary text-light fw-semibold rounded-3 text-decoration-none hover-accent-dim w-100 text-start";
+  "fs-5 px-4 d-flex justify-content-between align-items-center btn bg-accent-secondary text-light fw-semibold rounded-3 text-decoration-none hover-dark-dim w-100 text-start";
 
 definePageMeta({
   layout: "pageless",
