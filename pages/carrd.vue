@@ -4,23 +4,29 @@
     class="d-flex justify-content-center align-items-center vh-100"
   >
     <div id="carrd" class="card py-4 shadow rounded-4">
-      <div
-        class="d-flex justify-content-center align-items-center"
-        style="position: relative"
-      >
+      <div class="d-flex justify-content-center">
         <div
-          class="rounded-circle mx-2 mb-4"
-          id="spinner"
-          style="position: absolute"
-        ></div>
-        <div class="rounded-circle mx-2 mb-4" style="z-index: 1">
-          <img
-            class="rounded-circle p-1"
-            id="carrd-avatar"
-            src="/img/avatar.png"
-          />
+          class="d-flex justify-content-center align-items-center"
+          style="position: relative"
+        >
+          <div
+            class="rounded-circle mx-2 mb-4"
+            id="spinner"
+            style="position: absolute"
+          ></div>
+          <div class="rounded-circle mx-2 mb-4" style="z-index: 1">
+            <img
+              class="rounded-circle p-1"
+              id="carrd-avatar"
+              src="/img/avatar.png"
+            />
+          </div>
+        </div>
+        <div id="jp" class="d-flex justify-content-center align-items-center">
+          <span class="fs-6 fw-light">ドキ ドキ</span>
         </div>
       </div>
+
       <div class="text-center">
         <h3 class="fw-bold">Blossomi Shymae 🌸💔</h3>
         <p class="lead">Virtual coder and web denizen</p>
@@ -89,6 +95,11 @@
 #carrd {
   width: 24rem;
   background-color: #ffffffe0;
+}
+
+#jp {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
 }
 
 #carrd-avatar {
