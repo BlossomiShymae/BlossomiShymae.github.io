@@ -46,6 +46,17 @@
   background-color: var(--accent-color);
 }
 
+.hover-accent-secondary-dim {
+  background-color: inherit;
+  color: inherit;
+  transition: all 250ms;
+}
+
+.hover-accent-secondary-dim:hover {
+  color: white;
+  background-color: var(--accent-secondary-color);
+}
+
 .hover-underline {
   border-bottom: 1px solid transparent;
   transition: border-bottom 250ms;

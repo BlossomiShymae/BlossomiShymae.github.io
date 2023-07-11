@@ -96,41 +96,45 @@
                 Programming Thingies
               </NuxtLink>
             </li>
-            <li class="mb-2">
-              <NuxtLink
-                to="/lol/items"
-                class="btn bg-accent-20 fw-semibold rounded-pill text-decoration-none hover-accent-dim w-100 text-start"
+            <li clas="mb-2">
+              <button
+                class="btn btn-toggle bg-accent-secondary-20 fw-semibold rounded-pill text-decoration-none hover-accent-secondary-dim w-100 text-start"
+                data-bs-toggle="collapse"
+                data-bs-target="#lol-collapse"
               >
-                <PhBoot :size="24" color="black" weight="fill" />
-                LoL Items
-              </NuxtLink>
-            </li>
-            <li class="mb-2">
-              <NuxtLink
-                to="/lol/champions"
-                class="btn bg-accent-20 fw-semibold rounded-pill text-decoration-none hover-accent-dim w-100 text-start"
-              >
-                <PhUser :size="24" color="black" weight="fill" />
-                LoL Champions
-              </NuxtLink>
-            </li>
-            <li class="mb-2">
-              <NuxtLink
-                to="/lol/runes"
-                class="btn bg-accent-20 fw-semibold rounded-pill text-decoration-none hover-accent-dim w-100 text-start"
-              >
-                <PhCirclesThree :size="24" color="black" weight="fill" />
-                LoL Runes
-              </NuxtLink>
-            </li>
-            <li class="mb-2">
-              <NuxtLink
-                to="/lol/summoner-icons"
-                class="btn bg-accent-20 fw-semibold rounded-pill text-decoration-none hover-accent-dim w-100 text-start"
-              >
-                <PhUserCircle :size="24" color="black" weight="fill" />
-                LoL Summoner Icons
-              </NuxtLink>
+                <PhArrowRight :size="24" color="black" weight="fill" />
+                League of Legends Data
+              </button>
+              <div id="lol-collapse" class="collapse">
+                <NuxtLink
+                  to="/lol/items"
+                  class="mt-2 mb-2 btn bg-accent-20 fw-semibold rounded-pill text-decoration-none hover-accent-dim w-100 text-start"
+                >
+                  <PhBoot :size="24" color="black" weight="fill" />
+                  Items
+                </NuxtLink>
+                <NuxtLink
+                  to="/lol/champions"
+                  class="mb-2 btn bg-accent-20 fw-semibold rounded-pill text-decoration-none hover-accent-dim w-100 text-start"
+                >
+                  <PhUser :size="24" color="black" weight="fill" />
+                  Champions
+                </NuxtLink>
+                <NuxtLink
+                  to="/lol/runes"
+                  class="mb-2 btn bg-accent-20 fw-semibold rounded-pill text-decoration-none hover-accent-dim w-100 text-start"
+                >
+                  <PhCirclesThree :size="24" color="black" weight="fill" />
+                  Runes
+                </NuxtLink>
+                <NuxtLink
+                  to="/lol/summoner-icons"
+                  class="mb-2 btn bg-accent-20 fw-semibold rounded-pill text-decoration-none hover-accent-dim w-100 text-start"
+                >
+                  <PhUserCircle :size="24" color="black" weight="fill" />
+                  Summoner Icons
+                </NuxtLink>
+              </div>
             </li>
           </ul>
           <div class="d-flex justify-content-center w-100">
@@ -181,5 +185,6 @@ import {
   PhKeyboard,
   PhCirclesThree,
   PhCards,
+  PhArrowRight,
 } from "@phosphor-icons/vue";
 </script>
