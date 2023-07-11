@@ -76,7 +76,7 @@
           class="sticky-top overflow-y-auto h-100 d-flex flex-column py-3"
         >
           <ul
-            class="mb-2 pb-3 list-unstyled flex-column border-bottom border-accent"
+            class="mb-2 pb-3 me-2 list-unstyled flex-column border-bottom border-accent"
           >
             <li class="mb-2">
               <NuxtLink
