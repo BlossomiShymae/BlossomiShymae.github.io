@@ -8,54 +8,51 @@
         >My complete list of programming thingies can be found here. :3</a
       >
     </p>
-    <SideHero
-      image="https://user-images.githubusercontent.com/87099578/250685083-21cf6845-426f-4567-a73e-78311f6f4de7.png"
-      title="llux"
-      badge="creator"
-      subtitle="rust"
-      repository="https://github.com/BlossomiShymae/llux"
-    >
-      Transfer data to the LCU via the command-line interface! 🌟
-    </SideHero>
-    <SideHero
-      image="https://raw.githubusercontent.com/BlossomiShymae/RiotBlossom/master/BlossomiShymae.RiotBlossomDocs/public/img/riotblossom.png"
-      title="RiotBlossom"
-      badge="creator"
-      subtitle="c#, .NET"
-      repository="https://github.com/BlossomiShymae/RiotBlossom"
-    >
-      An asynchronous, extensible and magical .NET library for the Riot Games
-      API to make things totes easier!
-    </SideHero>
-    <SideHero
-      image="https://camo.githubusercontent.com/1ce795bd08cff6027b3ae44c94df67bfe3177e11c929664c857e3cb9ed30ff23/68747470733a2f2f6c6f6c63646e2e6461726b696e746171742e636f6d2f63646e2f6368616c6c656e67652d707265766965772e706e67"
-      title="Challenge Tracker"
-      badge="contributor"
-      subtitle="javascript, next.js"
-      repository="https://github.com/DarkIntaqt/challenges"
-    >
-      A League of Legends website dedicated to tracking all challenge-related
-      thingies! Owned by DarkIntaqt.com.
-    </SideHero>
-    <SideHero
-      image="https://user-images.githubusercontent.com/87099578/193130174-e464d4a6-afa3-453f-a36e-4289acf5f248.png"
-      title="monsoon"
-      badge="creator"
-      subtitle="python, pyqt5"
-      repository="https://github.com/BlossomiShymae/monsoon"
-    >
-      A lightweight client overlay for League of Legends that shows ARAM balance
-      changes.
-    </SideHero>
-    <SideHero
-      image="https://shieldbow.thedrone7.dev/Shieldbow.png"
-      title="Shieldbow"
-      badge="contributor"
-      subtitle="typescript"
-      repository="https://github.com/TheDrone7/shieldbow"
-    >
-      The all-purpose League of Legends API client.
-    </SideHero>
+    <div class="d-flex flex-wrap" style="gap: 40px">
+      <LinkCard
+        src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/99/99006.jpg"
+        url="https://github.com/BlossomiShymae/llux"
+      >
+        <h3 class="fw-bold">llux</h3>
+        Transfer data to the LCU via the command-line interface! 🌟
+      </LinkCard>
+      <LinkCard
+        src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/887/887000.jpg"
+        url="https://github.com/BlossomiShymae/RiotBlossom"
+      >
+        <h3 class="fw-bold">RiotBlossom</h3>
+        An asynchronous, extensible and magical .NET library for the Riot Games
+        API to make things totes easier!
+      </LinkCard>
+      <LinkCard
+        src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/104/104005.jpg"
+        url="https://github.com/DarkIntaqt/challenges"
+      >
+        <h3 class="fw-bold">
+          Challenge Tracker
+          <span class="badge bg-dark fs-tiny">Contributor</span>
+        </h3>
+        A League of Legends website dedicated to tracking all challenge-related
+        thingies! Owned by DarkIntaqt.com.
+      </LinkCard>
+      <LinkCard
+        src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/40/40046.jpg"
+        url="https://github.com/BlossomiShymae/monsoon"
+      >
+        <h3 class="fw-bold">monsoon</h3>
+        A lightweight client overlay for League of Legends that shows ARAM
+        balance changes.
+      </LinkCard>
+      <LinkCard
+        src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/145/145048.jpg"
+        url="https://github.com/TheDrone7/shieldbow"
+      >
+        <h3 class="fw-bold">
+          Shieldbow <span class="badge bg-dark fs-tiny">Contributor</span>
+        </h3>
+        The all-purpose League of Legends API client.
+      </LinkCard>
+    </div>
   </div>
 </template>
 
