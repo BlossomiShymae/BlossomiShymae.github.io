@@ -139,4 +139,8 @@ const linkCss =
 definePageMeta({
   layout: "pageless",
 });
+
+useHead({
+  title: "Blossomi Shymae",
+});
 </script>
