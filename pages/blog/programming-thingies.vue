@@ -4,8 +4,8 @@
     <p>
       <a
         href="https://github.com/BlossomiShymae?tab=repositories"
-        class="text-decoration-none hover-underline"
-        >My complete list of programming thingies can be found here. :3</a
+        class="text-decoration-none hover-underline text-normal text-dark lead"
+        >My complete list of programming thingies can be found here! 💜</a
       >
     </p>
     <div class="d-flex flex-wrap" style="gap: 40px">
