@@ -140,12 +140,8 @@ definePageMeta({
   layout: "pageless",
 });
 
-useHead({
-  title: "Blossomi Shymae",
-});
-
 useSeoMeta({
-  title: "blossomishymae.github.io",
+  title: "Blossomi Shymae",
   ogTitle: "Blossomi Shymae",
   ogType: "profile",
   ogDescription: "Shymae's Socials 💜",
