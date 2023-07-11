@@ -143,4 +143,13 @@ definePageMeta({
 useHead({
   title: "Blossomi Shymae",
 });
+
+useSeoMeta({
+  title: "blossomishymae.github.io",
+  ogTitle: "Blossomi Shymae",
+  ogType: "profile",
+  ogDescription: "Shymae's Socials 💜",
+  ogImage: "https://blossomishymae.github.io/img/avatar.png",
+  themeColor: "#77d694",
+});
 </script>
