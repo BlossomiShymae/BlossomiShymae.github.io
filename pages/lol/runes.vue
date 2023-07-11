@@ -37,6 +37,10 @@
 <script lang="ts" setup>
 import { useVersions, usePerks } from "~/composables/dataDragon";
 
+useHead({
+  title: "Runes Viewer - blossomishymae.github.io",
+});
+
 const { version } = await useVersions();
 const perks = await usePerks(version);
 </script>

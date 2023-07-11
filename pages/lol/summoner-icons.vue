@@ -79,6 +79,10 @@ import {
 import { useSummonerIcons } from "~/composables/communityDragon";
 import { usePagination } from "~/composables/pagination";
 
+useHead({
+  title: "Summoner Icons Viewer - blossomishymae.github.io",
+});
+
 const icons = await useSummonerIcons();
 const { count, pages, index, prev, next, first, last } = usePagination(
   icons,

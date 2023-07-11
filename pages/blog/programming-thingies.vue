@@ -59,4 +59,8 @@
   </div>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+useHead({
+  title: "Her Programming Thingies - blossomishymae.github.io",
+});
+</script>

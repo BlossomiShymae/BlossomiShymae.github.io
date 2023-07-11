@@ -37,6 +37,10 @@
 <script lang="ts" setup>
 import { useVersions, useChampions } from "~/composables/dataDragon";
 
+useHead({
+  title: "Champions Viewer - blossomishymae.github.io",
+});
+
 const { version } = await useVersions();
 const champions = await useChampions(version);
 </script>

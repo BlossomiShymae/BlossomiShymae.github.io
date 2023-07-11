@@ -45,6 +45,10 @@
 <script lang="ts" setup>
 import { useVersions, useItems } from "~/composables/dataDragon";
 
+useHead({
+  title: "Items Viewer - blossomishymae.github.io",
+});
+
 const { version } = await useVersions();
 const items = await useItems(version);
 </script>
