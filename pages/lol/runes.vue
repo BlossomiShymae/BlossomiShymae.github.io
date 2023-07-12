@@ -2,34 +2,36 @@
   <div class="p-4">
     <ClientOnly>
       <h2>League of Legends Runes Viewer</h2>
-      <h5 class="text-muted">Patch {{ version }}</h5>
-      <table class="table table-striped table-hover">
-        <thead>
-          <th scope="col">ID</th>
-          <th scope="col">Icon</th>
-          <th scope="col">Name</th>
-        </thead>
-        <tbody>
-          <tr
-            v-for="perk in perks"
-            :id="perk.id"
-            :class="`${perk.id % 100 === 0 ? 'table-dark' : ''}`"
-          >
-            <th scope="row">{{ perk.id }}</th>
-            <td>
-              <div class="img-fluid">
-                <img
-                  :src="`http://ddragon.leagueoflegends.com/cdn/img/${perk.icon}`"
-                  style="width: 24px"
-                  class="rounded"
-                  loading="lazy"
-                />
-              </div>
-            </td>
-            <td>{{ perk.name }}</td>
-          </tr>
-        </tbody>
-      </table>
+      <h5 class="text-muted mb-3">Patch {{ version }}</h5>
+      <div class="border rounded p-3">
+        <table class="table table-striped table-hover">
+          <thead>
+            <th scope="col">ID</th>
+            <th scope="col">Icon</th>
+            <th scope="col">Name</th>
+          </thead>
+          <tbody>
+            <tr
+              v-for="perk in perks"
+              :id="perk.id"
+              :class="`${perk.id % 100 === 0 ? 'table-dark' : ''}`"
+            >
+              <th scope="row">{{ perk.id }}</th>
+              <td>
+                <div class="img-fluid">
+                  <img
+                    :src="`http://ddragon.leagueoflegends.com/cdn/img/${perk.icon}`"
+                    style="width: 24px"
+                    class="rounded"
+                    loading="lazy"
+                  />
+                </div>
+              </td>
+              <td>{{ perk.name }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </ClientOnly>
   </div>
 </template>
