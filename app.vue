@@ -1,6 +1,6 @@
 <template>
   <NuxtLayout>
-    <NuxtPage keepalive :key="$route.fullPath" />
+    <NuxtPage keepalive />
   </NuxtLayout>
 </template>
 
