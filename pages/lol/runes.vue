@@ -1,6 +1,6 @@
 <template>
-  <ClientOnly>
-    <div class="p-4">
+  <div class="p-4">
+    <ClientOnly>
       <h2>League of Legends Runes Viewer</h2>
       <h5 class="text-muted">Patch {{ version }}</h5>
       <table class="table table-striped table-hover">
@@ -30,8 +30,8 @@
           </tr>
         </tbody>
       </table>
-    </div>
-  </ClientOnly>
+    </ClientOnly>
+  </div>
 </template>
 
 <script lang="ts" setup>

@@ -1,6 +1,6 @@
 <template>
-  <ClientOnly>
-    <div class="p-4">
+  <div class="p-4">
+    <ClientOnly>
       <h2>League of Legends Summoner Icons Viewer</h2>
       <table class="table table-striped table-hover">
         <thead>
@@ -65,8 +65,8 @@
           </li>
         </ul>
       </nav>
-    </div>
-  </ClientOnly>
+    </ClientOnly>
+  </div>
 </template>
 
 <script lang="ts" setup>
