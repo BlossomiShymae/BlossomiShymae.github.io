@@ -168,6 +168,11 @@
         <p class="text-center text-body-secondary">
           © 2023 Blossomi Shymae 🌸💔
         </p>
+        <p class="text-muted text-center fs-tiny">
+          blossomishymae.github.io was created under Riot Games' "Legal Jibber
+          Jabber" policy using assets owned by Riot Games. Riot Games does not
+          endorse or sponsor this project.
+        </p>
       </footer>
     </div>
   </div>
