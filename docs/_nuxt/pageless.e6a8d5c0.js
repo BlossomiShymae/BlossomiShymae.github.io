@@ -1,1 +1,0 @@
-import{_ as s,o,c as t,h as a}from"./entry.93968539.js";const c={},r={id:"pageless-layout"};function n(e,l){return o(),t("div",r,[a(e.$slots,"default")])}const d=s(c,[["render",n]]);export{d as default};
