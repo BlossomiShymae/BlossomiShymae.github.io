@@ -15,11 +15,13 @@
             style="position: absolute"
           ></div>
           <div class="rounded-circle mx-2 mb-4" style="z-index: 1">
-            <img
-              class="rounded-circle p-1"
-              id="carrd-avatar"
-              src="/img/avatar.png"
-            />
+            <NuxtLink to="/secret/truth">
+              <img
+                class="rounded-circle p-1"
+                id="carrd-avatar"
+                src="/img/avatar.png"
+              />
+            </NuxtLink>
           </div>
         </div>
         <div id="jp" class="d-flex justify-content-center align-items-center">
