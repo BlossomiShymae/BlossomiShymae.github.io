@@ -1,0 +1,1 @@
+@font-face{font-family:utdr;src:url(../fonts/utdr.woff) format("woff")}.ff-utdr[data-v-ea8c5814]{font-family:utdr,serif}.secret-text[data-v-ea8c5814]{text-shadow:4px 4px #222}#secrets[data-v-ea8c5814]{animation:hollow-ea8c5814 4s linear infinite}@keyframes hollow-ea8c5814{0%{filter:blur(0);opacity:1}50%{filter:blur(2px);opacity:.9}to{filter:blur(0);opacity:1}}
