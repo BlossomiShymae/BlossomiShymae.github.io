@@ -1,7 +1,52 @@
 <template>
   <div class="px-4 py-4">
     <ClientOnly>
-      <h2>League of Legends Champions Viewer</h2>
+      <h2>Champions</h2>
+      <p class="mb-0">
+        Champion data displayed here comes from DataDragon as
+        <b>champion.json</b>:
+      </p>
+      <p>
+        <code>{{
+          `https://ddragon.leagueoflegends.com/cdn/${version}/data/en_US/champion.json`
+        }}</code>
+      </p>
+      <p class="mb-0">Where the following format is used:</p>
+      <p>
+        <code>
+          {{
+            `https://ddragon.leagueoflegends.com/cdn/{version}/data/{locale}/champion.json`
+          }}
+        </code>
+      </p>
+      <p class="mb-0">
+        For more information, <b>championFull.json</b> is available as well:
+      </p>
+      <p>
+        <code>
+          {{
+            `https://ddragon.leagueoflegends.com/cdn/{version}/data/{locale}/championFull.json`
+          }}
+        </code>
+      </p>
+      <div class="alert alert-info">
+        <b>📝 Note</b>
+        <p class="mb-0">
+          DataDragon is known to have missing information, inaccurate data, and
+          other quirky thingies. Use other analogs such as CommunityDragon and
+          MerakiAnalytics if this is an issue:
+        </p>
+        <p class="mb-0">
+          <code>{{
+            `https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champions/{id}.json`
+          }}</code>
+        </p>
+        <p class="mb-0">
+          <code>{{
+            `https://cdn.merakianalytics.com/riot/lol/resources/latest/en-US/champions.json`
+          }}</code>
+        </p>
+      </div>
       <h5 class="text-muted mb-3">Patch {{ version }}</h5>
       <div class="border rounded p-3">
         <table class="table table-striped table-hover">

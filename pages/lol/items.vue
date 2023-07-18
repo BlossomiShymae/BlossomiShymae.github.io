@@ -1,7 +1,39 @@
 <template>
   <div class="px-4 py-4">
     <ClientOnly>
-      <h2>League of Legends Items Viewer</h2>
+      <h2>Items</h2>
+      <p class="mb-0">
+        Item data displayed here comes from DataDragon as <b>item.json</b>:
+      </p>
+      <p>
+        <code>{{
+          `https://ddragon.leagueoflegends.com/cdn/${version}/data/en_US/item.json`
+        }}</code>
+      </p>
+      <p class="mb-0">Where the following format is used:</p>
+      <p>
+        <code>{{
+          `https://ddragon.leagueoflegends.com/cdn/{version}/data/{locale}/item.json`
+        }}</code>
+      </p>
+      <div class="alert alert-info">
+        <b>📝 Note</b>
+        <p class="mb-0">
+          DataDragon is known to have missing information, inaccurate data, and
+          other quirky thingies. Use other analogs such as CommunityDragon and
+          MerakiAnalytics if this is an issue:
+        </p>
+        <p class="mb-0">
+          <code>{{
+            `https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/items.json`
+          }}</code>
+        </p>
+        <p class="mb-0">
+          <code>{{
+            `https://cdn.merakianalytics.com/riot/lol/resources/latest/en-US/items.json`
+          }}</code>
+        </p>
+      </div>
       <h5 class="text-muted mb-3">Patch {{ version }}</h5>
       <div class="border rounded p-3">
         <table class="table table-striped table-hover">

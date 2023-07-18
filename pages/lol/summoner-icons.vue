@@ -1,7 +1,25 @@
 <template>
   <div class="p-4">
     <ClientOnly>
-      <h2 class="mb-3">League of Legends Summoner Icons Viewer</h2>
+      <h2 class="mb-3">Summoner Icons</h2>
+      <p class="mb-0">
+        Summoner icons displayed here comes from CommunityDragon:
+      </p>
+      <p>
+        <code>
+          {{
+            `https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/summoner-icons.json`
+          }}
+        </code>
+      </p>
+      <p class="mb-0">For each individual profile icon:</p>
+      <p>
+        <code>
+          {{
+            `https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/{id}.jpg`
+          }}
+        </code>
+      </p>
       <div class="border rounded p-3">
         <table class="table table-striped table-hover">
           <thead>
