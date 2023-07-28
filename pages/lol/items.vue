@@ -48,7 +48,7 @@
             <tr
               v-for="(item, id) in items"
               :id="`${id}`"
-              :class="`${item.gold.total === 0 ? 'table-info' : ''}`"
+              :class="styleRow(item)"
             >
               <th scope="row">{{ id }}</th>
               <td>
@@ -85,4 +85,13 @@ useHead({
 
 const { version } = await useVersions();
 const items = await useItems(version);
+
+function styleRow(item: any) {
+  if (item.gold.total === 0) {
+    return 'table-info';
+  } else if (item.description.includes("ornnBonus")) {
+    return 'table-warning';
+  }
+  return '';
+}
 </script>
