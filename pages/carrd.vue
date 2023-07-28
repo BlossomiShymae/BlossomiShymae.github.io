@@ -1,5 +1,7 @@
 <template>
-  <div
+  <div>
+    <ClientOnly>
+      <div
     id="carrd-page"
     class="d-flex justify-content-center align-items-center vh-100"
     :style="`background-image: url(${entry.background})`"
@@ -83,6 +85,8 @@
       </div>
     </div>
   </div>
+    </ClientOnly>
+  </div>
 </template>
 
 <style scoped>
@@ -158,4 +162,6 @@ const entries = [
 ];
 const key = Math.floor(Math.random() * entries.length);
 const entry = entries[key];
+console.info("Selecting entry:")
+console.table(entry);
 </script>
