@@ -2,6 +2,7 @@
   <div
     id="carrd-page"
     class="d-flex justify-content-center align-items-center vh-100"
+    :style="`background-image: url(${entry.background})`"
   >
     <div id="carrd" class="card py-4 shadow rounded-4">
       <div class="d-flex justify-content-center">
@@ -19,7 +20,7 @@
               <img
                 class="rounded-circle p-1"
                 id="carrd-avatar"
-                src="/img/avatar.png"
+                :src="entry.avatar"
               />
             </NuxtLink>
           </div>
@@ -89,7 +90,6 @@
   --avatar-height: 200px;
   --avatar-width: 200px;
 
-  background-image: url("/img/carrd_bg.png");
   background-position: right;
   background-size: cover;
 }
@@ -150,4 +150,12 @@ useSeoMeta({
   ogImage: "https://blossomishymae.github.io/img/avatar.png",
   themeColor: "#77d694",
 });
+
+// Randomize avatar and background set
+const entries = [
+  { avatar: "/img/avatar.png", background: "/img/carrd_bg.png"},
+  { avatar: "/img/avatar_1.png", background: "/img/carrd_bg_1.png"}
+];
+const key = Math.floor(Math.random() * entries.length);
+const entry = entries[key];
 </script>
