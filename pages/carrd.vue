@@ -158,7 +158,8 @@ useSeoMeta({
 // Randomize avatar and background set
 const entries = [
   { avatar: "/img/avatar.png", background: "/img/carrd_bg.png"},
-  { avatar: "/img/avatar_1.png", background: "/img/carrd_bg_1.png"}
+  { avatar: "/img/avatar_1.png", background: "/img/carrd_bg_1.png"},
+  { avatar: "/img/avatar_2.png", background: "/img/carrd_bg_2.png"},
 ];
 const key = Math.floor(Math.random() * entries.length);
 const entry = entries[key];
