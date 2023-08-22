@@ -94,7 +94,7 @@
   --avatar-height: 200px;
   --avatar-width: 200px;
 
-  background-position: right;
+  background-position: v-bind(entry.position);
   background-size: cover;
 }
 
@@ -157,9 +157,9 @@ useSeoMeta({
 
 // Randomize avatar and background set
 const entries = [
-  { avatar: "/img/avatar.png", background: "/img/carrd_bg.png"},
-  { avatar: "/img/avatar_1.png", background: "/img/carrd_bg_1.png"},
-  { avatar: "/img/avatar_2.png", background: "/img/carrd_bg_2.png"},
+  { avatar: "/img/avatar.png", background: "/img/carrd_bg.png", position: "right"},
+  { avatar: "/img/avatar_1.png", background: "/img/carrd_bg_1.png", position: "right"},
+  { avatar: "/img/avatar_2.png", background: "/img/carrd_bg_2.png", position: "right 50% top 10%"},
 ];
 const key = Math.floor(Math.random() * entries.length);
 const entry = entries[key];
