@@ -52,8 +52,14 @@
           </a>
         </li>
         <li class="mb-2">
+          <a href="https://reddit.com/u/BlossomiShymae" :class="linkCss">
+            /u/BlossomiShymae
+            <PhRedditLogo :size="32" color="white" weight="fill" />
+          </a>
+        </li>
+        <li class="mb-2">
           <a href="https://reddit.com/u/MissUwuieTime" :class="linkCss">
-            Reddit
+            /u/MissUwuieTime
             <PhRedditLogo :size="32" color="white" weight="fill" />
           </a>
         </li>
@@ -75,7 +81,7 @@
         </li>
         <li class="mb-2">
           <a href="https://twitter.com/BlossomiShymae" :class="linkCss">
-            Cursed Birb
+            X / Twitter
             <PhTwitterLogo :size="32" color="white" weight="fill" />
           </a>
         </li>
