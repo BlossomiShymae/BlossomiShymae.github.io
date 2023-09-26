@@ -42,8 +42,8 @@
         </p>
         <p class="mb-0">For example, Future's Market will use <b>var1</b> for Damage Dealt and <b>var2</b> for Gold Gained.</p>
       </div>
-      <h5 class="text-muted mb-3">Patch {{ version }}</h5>
-      <div class="border rounded p-3">
+      <h5 class="mb-3">Patch {{ version }}</h5>
+      <div class="border rounded bg-dark p-3">
         <table class="table table-striped table-hover">
           <thead>
             <th scope="col">ID</th>

@@ -34,8 +34,8 @@
           }}</code>
         </p>
       </div>
-      <h5 class="text-muted mb-3">Patch {{ version }}</h5>
-      <div class="border rounded p-3">
+      <h5 class="mb-3">Patch {{ version }}</h5>
+      <div class="border rounded bg-dark p-3">
         <table class="table table-striped table-hover">
           <thead>
             <th scope="col">ID</th>
@@ -88,9 +88,9 @@ const items = await useItems(version);
 
 function styleRow(item: any) {
   if (item.gold.total === 0) {
-    return 'table-info';
+    return 'border border-info-subtle';
   } else if (item.description.includes("ornnBonus")) {
-    return 'table-warning';
+    return 'border border-warning-subtle';
   }
   return '';
 }

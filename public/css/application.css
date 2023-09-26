@@ -1,7 +1,7 @@
 :root {
   --favicon-size: 48px;
   --color: rgb(243, 242, 239);
-  --background-color: rgb(109, 123, 129);
+  --background-color: rgb(52, 60, 62);
   --accent-color: rgb(179, 255, 231);
   --accent-color-20: rgb(179, 255, 231, 0.2);
   --accent-secondary-color: rgb(56, 197, 156);
@@ -17,6 +17,10 @@ body {
 button>svg,
 a>svg {
   filter: invert(1);
+}
+
+code {
+  color: var(--accent-secondary-color);
 }
 
 * {
