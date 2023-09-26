@@ -11,71 +11,6 @@
         <NuxtLink to="/lol/runes" class="btn bg-accent-20 text-decoration-none hover-accent-dim">Runes</NuxtLink>
         <NuxtLink to="/lol/summoner-icons" class="btn bg-accent-20 text-decoration-none hover-accent-dim">Summoner Icons</NuxtLink>
       </div>
-      <!-- <ul
-        class="mb-2 pb-3 me-2 list-unstyled flex-column border-bottom border-accent"
-      >
-        <li class="mb-2">
-          <NuxtLink
-            to="/"
-            class="btn bg-accent-20 fw-semibold rounded-pill text-decoration-none hover-accent-dim w-100 text-start"
-          >
-            <PhHouse :size="24" color="black" weight="fill" />
-            Home
-          </NuxtLink>
-        </li>
-        <li class="mb-2">
-          <NuxtLink
-            to="/blog/programming-thingies"
-            class="btn bg-accent-20 fw-semibold rounded-pill text-decoration-none hover-accent-dim w-100 text-start"
-          >
-            <PhKeyboard :size="24" color="black" weight="fill" />
-            Programming Thingies
-          </NuxtLink>
-        </li>
-        <li clas="mb-2">
-          <button
-            class="btn btn-toggle bg-accent-secondary-20 fw-semibold rounded-pill text-decoration-none hover-accent-secondary-dim w-100 text-start"
-            data-bs-toggle="collapse"
-            data-bs-target="#lol-collapse"
-          >
-            <PhArrowRight :size="24" color="black" weight="fill" />
-            League of Legends Data
-          </button>
-          <div id="lol-collapse" class="collapse">
-            <NuxtLink
-              to="/lol/items"
-              class="mt-2 mb-2 btn bg-accent-20 fw-semibold rounded-pill text-decoration-none hover-accent-dim w-100 text-start"
-            >
-              <PhBoot :size="24" color="black" weight="fill" />
-              Items
-            </NuxtLink>
-            <NuxtLink
-              to="/lol/champions"
-              class="mb-2 btn bg-accent-20 fw-semibold rounded-pill text-decoration-none hover-accent-dim w-100 text-start"
-            >
-              <PhUser :size="24" color="black" weight="fill" />
-              Champions
-            </NuxtLink>
-            <NuxtLink
-              to="/lol/runes"
-              class="mb-2 btn bg-accent-20 fw-semibold rounded-pill text-decoration-none hover-accent-dim w-100 text-start"
-            >
-              <PhCirclesThree :size="24" color="black" weight="fill" />
-              Runes
-            </NuxtLink>
-            <NuxtLink
-              to="/lol/summoner-icons"
-              class="mb-2 btn bg-accent-20 fw-semibold rounded-pill text-decoration-none hover-accent-dim w-100 text-start"
-            >
-              <PhUserCircle :size="24" color="black" weight="fill" />
-              Summoner Icons
-            </NuxtLink>
-          </div>
-        </li>
-      </ul>
-      <div class="d-flex justify-content-center w-100">
-        
-      </div> -->
       <div class="border-top border-accent border-2 mt-3 pt-2">
         <p>
           Now with
@@ -104,7 +39,9 @@
     <nav class="d-flex justify-content-around align-items-center flex-wrap">
           <div class="d-flex">
             <div class="me-2 rounded-circle bg-accent-secondary-20">
-              <img src="/img/thumbnail.png" class="rounded-circle p-1" id="favicon" />
+              <NuxtLink to="/secret/thoughts">
+                <img src="/img/thumbnail.png" class="rounded-circle p-1" id="favicon" />
+              </NuxtLink>
             </div>
             <h3 class="fw-light">
               blossomishymae.github.io

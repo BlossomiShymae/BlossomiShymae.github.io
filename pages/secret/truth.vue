@@ -15,23 +15,6 @@
 </template>
 
 <style scoped>
-@font-face {
-  font-family: "utdr";
-  src: url("/fonts/utdr.woff") format("woff");
-}
-
-.ff-utdr {
-  font-family: "utdr", serif;
-}
-
-.secret-text {
-  text-shadow: 4px 4px #222;
-}
-
-#secrets {
-  animation: hollow 4s linear infinite;
-}
-
 @keyframes hollow {
   from {
     filter: blur(0px);
