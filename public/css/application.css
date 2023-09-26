@@ -1,6 +1,5 @@
 :root {
   --favicon-size: 48px;
-  --website-header-height: calc(var(--favicon-size) + 16px + 1px);
   --color: rgb(243, 242, 239);
   --background-color: rgb(109, 123, 129);
   --accent-color: rgb(179, 255, 231);
@@ -12,15 +11,6 @@
 html,
 body {
   background-color: var(--background-color);
-  color: var(--color);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-p { 
   color: var(--color);
 }
 
@@ -47,6 +37,30 @@ a>svg {
   background-color: var(--accent-color);
   border-radius: 10px;
   border: 3px solid #ffffff;
+}
+
+aside {
+  height: 100vh;
+  width: 50vw;
+  position: fixed;
+
+  background-color: var(--accent-secondary-color-20);
+  z-index: 20;
+  backdrop-filter: blur(0.4rem);
+
+  transform: rotate(45deg) translateX(0%) translateY(80%);
+}
+
+header {
+  background-color: var(--accent-secondary-color-20);
+  backdrop-filter: blur(0.4rem);
+  height: 80px;
+
+  transform: rotate(-1deg) translateY(-20%);
+}
+
+header > * {
+  transform: translateY(20%);
 }
 
 #favicon {
@@ -132,19 +146,6 @@ a>svg {
 
 .fs-tiny {
   font-size: 0.6rem;
-}
-
-.container-grid {
-  display: grid;
-  gap: 1.5rem;
-  grid-template-columns: 3fr 9fr;
-}
-
-#aside-parent {
-  display: block;
-  height: calc(100vh - var(--website-header-height));
-  position: sticky;
-  top: var(--website-header-height);
 }
 
 body {
