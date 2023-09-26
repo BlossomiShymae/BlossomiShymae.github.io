@@ -75,10 +75,10 @@
       <slot></slot>
     </main>
 
-    <footer class="d-flex flex-column justify-content-center border-top border-bottom border-accent border-2 gap-2">
+    <footer class="sticky-bottom d-flex flex-column justify-content-center border-top border-bottom border-accent border-2 gap-2">
       <div class="d-flex justify-content-center pt-2 gap-2">
         <NuxtLink to="/" class="btn bg-accent-20 text-decoration-none hover-accent-dim">Home</NuxtLink>
-        <NuxtLink to="/blog/programming-thingies" class="btn bg-accent-20 text-decoration-none hover-accent-dim">Progamming Thingies</NuxtLink>
+        <NuxtLink to="/blog/programming-thingies" class="btn bg-accent-20 text-decoration-none hover-accent-dim">Programming Thingies</NuxtLink>
         <NuxtLink to="/lol/champions" class="btn bg-accent-20 text-decoration-none hover-accent-dim">Champions</NuxtLink>
         <NuxtLink to="/lol/items" class="btn bg-accent-20 text-decoration-none hover-accent-dim">Items</NuxtLink>
         <NuxtLink to="/lol/runes" class="btn bg-accent-20 text-decoration-none hover-accent-dim">Runes</NuxtLink>
