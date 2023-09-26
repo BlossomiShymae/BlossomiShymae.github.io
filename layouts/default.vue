@@ -88,7 +88,7 @@
      
       <div class="d-flex justify-content-center">
         <p class="border-top border-accent border-2 mb-0">
-          Now with
+          Made with
           <svg
             width="24"
             height="24"

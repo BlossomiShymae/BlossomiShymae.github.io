@@ -3,7 +3,7 @@
     <div class="row mt-5 pt-5">
       <div class="col-md-6">
         <h2 class="fw-light">Blossomi Shymae 🌸💔</h2>
-        <h4><span class="badge bg-accent-secondary rounded-pill">anxious elf girl</span> ブロソミー・シャイマエ</h4>
+        <h4><span class="badge bg-accent-secondary rounded-pill">anxious elf girl</span> <span class="text-accent-secondary fw-bold">ブロソミー・シャイマエ</span></h4>
 
         <p>She has been involved in numerous projects in the Riot Games Third Party Developer for computer programming. Her 
           works and contributions have inspired others, such as Ray's cd-dd and cuppachino's Hexgate.

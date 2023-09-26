@@ -28,13 +28,13 @@
           </div>
         </div>
         <div id="jp" class="d-flex justify-content-center align-items-center">
-          <span class="fs-6 fw-light">ドキ ドキ</span>
+          <span class="fs-6 text-dark">ドキ ドキ</span>
         </div>
       </div>
 
-      <div class="text-center">
-        <h3 class="fw-bold">Blossomi Shymae 🌸💔</h3>
-        <p class="lead">Virtual coder and web denizen</p>
+      <div class="text-center text-dark">
+        <h3 class="fw-light">Blossomi Shymae 🌸💔</h3>
+        <p class="lead fw-bold">Virtual coder and web denizen</p>
       </div>
       <ul
         class="mb-2 p-4 list-unstyled flex-column border-none border-dark-subtle border-top border-bottom"
@@ -86,7 +86,7 @@
           </a>
         </li>
       </ul>
-      <div class="card-body text-center fw-semibold">
+      <div class="card-body text-center fw-semibold text-dark">
         <p>Not affiliated or endorsed with carrd.co 💜</p>
       </div>
     </div>

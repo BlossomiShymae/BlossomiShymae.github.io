@@ -8,6 +8,10 @@
   --accent-secondary-color-20: rgb(56, 197, 156, 0.2)
 }
 
+.text-accent-secondary {
+  color: var(--accent-secondary-color);
+}
+
 html,
 body {
   background-color: var(--background-color);
