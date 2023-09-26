@@ -104,7 +104,7 @@
     <nav class="d-flex justify-content-around align-items-center flex-wrap">
           <div class="d-flex">
             <div class="me-2 rounded-circle bg-accent-secondary-20">
-              <img src="/favicon.png" class="rounded-circle p-1" id="favicon" />
+              <img src="/img/thumbnail.png" class="rounded-circle p-1" id="favicon" />
             </div>
             <h3 class="fw-light">
               blossomishymae.github.io

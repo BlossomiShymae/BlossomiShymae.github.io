@@ -1,33 +1,60 @@
 <template>
   <div>
-    <div class="px-4 pt-5 my-5 text-center border-bottom">
-      <h2 class="fw-bold">Blossomi Shymae 🌸💔</h2>
-      <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">
-          Totes radical homepage of your shy gloomy elf girl.
-          <span class="fw-normal"
-            ><small>Now with a new makeover! 💜</small></span
-          >
+    <div class="row mt-5 pt-5">
+      <div class="col-md-6">
+        <h2 class="fw-light">Blossomi Shymae 🌸💔</h2>
+        <p>The totes radical homepage of the anxious elf girl. Something is amiss...</p>
+
+        <h4>Summary</h4>
+
+        <p>She has been involved in numerous projects in the Riot Games Third Party Developer for computer programming. Her 
+          works and contributions have inspired others, such as Ray's cd-dd and cuppachino's Hexgate.
         </p>
+
+        <p>Outside of programming, she likes to draw digital art such as her self-illustrations to the right.</p>
       </div>
-      <div class="overflow-hidden" style="max-height: 33vh">
-        <div class="container px-5">
-          <img class="img-fluid mb-4" src="/img/pinup.png" loading="lazy" />
-        </div>
-      </div>
-    </div>
-    <div class="container col-xxl-8 px-4 py-5">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-          <img
-            class="d-block mx-lg-auto img-fluid"
-            src="/img/side_hero.png"
-            loading="lazy"
-          />
-        </div>
-        <div class="col-lg-6">
-          <p class="lead mb-0">Previous design.</p>
-          <small class="fs-tiny">Derp sheep not included.</small>
+      <div class="col-md-6">
+        <div id="carousel" class="carousel slide border border-accent">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+          </div>
+
+          <div class="carousel-inner text-shadow">
+            <div class="carousel-item active">
+              <img src="/img/carrd_bg_2.png" class="d-block w-100" />
+              <div class="carousel-caption text-light d-none d-md-block">
+                <h5>Light costume</h5>
+                <p>When the light is running low 🎵</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="/img/carrd_bg_1.png" class="d-block w-100"/>
+              <div class="carousel-caption text-light d-none d-md-block">
+                <h5>Original</h5>
+                <p>Who knew this dress stands out with green! 💜</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="/img/carrd_bg.png" class="d-block w-100" />
+              <div class="carousel-caption text-light d-none d-md-block">
+                <h5>Original</h5>
+                <p>The elf lady that worries too much. 💔</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button id="next" class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
     </div>

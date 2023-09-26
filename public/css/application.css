@@ -144,6 +144,15 @@ header > * {
   background-color: var(--accent-secondary-color-20);
 }
 
+.bg-screen {
+  background-color: #0008;
+  backdrop-filter: blur(0.4rem);
+}
+
+.text-shadow {
+  text-shadow: 0.1rem 0.1rem 0.25rem black, 0.1rem 0.1rem 0.25rem black, 0.1rem 0.1rem 0.25rem black;
+}
+
 .fs-tiny {
   font-size: 0.6rem;
 }
