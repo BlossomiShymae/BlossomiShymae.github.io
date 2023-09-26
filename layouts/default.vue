@@ -10,9 +10,9 @@
             <div class="me-2 rounded-circle bg-accent-secondary-20">
               <img src="/favicon.png" class="rounded-circle p-1" id="favicon" />
             </div>
-            <h4 class="fw-normal">
-              blossomishymae.<span class="text-secondary">github.io</span>
-            </h4>
+            <h3 class="fw-light">
+              blossomishymae.github.io
+            </h3>
           </div>
         </div>
         <div class="grid-content ps-4 w-100">

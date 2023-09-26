@@ -1,11 +1,32 @@
 :root {
   --favicon-size: 48px;
   --website-header-height: calc(var(--favicon-size) + 16px + 1px);
-  --color: black;
-  --accent-color: #77d694;
-  --accent-color-20: #77d69420;
-  --accent-secondary-color: #9f16b1;
-  --accent-secondary-color-20: #9f16b120;
+  --color: rgb(243, 242, 239);
+  --background-color: rgb(109, 123, 129);
+  --accent-color: rgb(179, 255, 231);
+  --accent-color-20: rgb(179, 255, 231, 0.2);
+  --accent-secondary-color: rgb(56, 197, 156);
+  --accent-secondary-color-20: rgb(56, 197, 156, 0.2)
+}
+
+html,
+body {
+  background-color: var(--background-color);
+  color: var(--color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p { 
+  color: var(--color);
+}
+
+button>svg,
+a>svg {
+  filter: invert(1);
 }
 
 * {

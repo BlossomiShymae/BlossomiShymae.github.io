@@ -36,12 +36,13 @@
   background-repeat: no-repeat;
   background-position: center;
 
-  z-index: -1;
+  z-index: 1;
 }
 
 .image-content {
   background: linear-gradient(transparent 10%, rgba(0, 0, 0, 0.9));
-  z-index: 1;
+  position: relative;
+  z-index: 2;
   width: var(--card-width);
   height: var(--card-height);
   text-shadow: 2px 2px 8px black;

@@ -17,6 +17,9 @@ export default defineNuxtConfig({
       mode: "out-in",
     },
     head: {
+      htmlAttrs: {
+        "data-bs-theme": "dark"
+      },
       meta: [
         { name: "viewport", content: "width=device-width, initial-scale=1" },
       ],
