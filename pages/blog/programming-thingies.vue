@@ -4,11 +4,11 @@
     <p>
       <a
         href="https://github.com/BlossomiShymae?tab=repositories"
-        class="text-decoration-none hover-underline text-normal text-dark lead"
+        class="text-decoration-none text-normal text-light lead"
         >My complete list of programming thingies can be found here! 💜</a
       >
     </p>
-    <div class="d-flex flex-wrap" style="gap: 40px">
+    <div class="d-flex flex-wrap" style="gap: 24px">
       <LinkCard
         src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/99/99006.jpg"
         url="https://github.com/BlossomiShymae/llux"
