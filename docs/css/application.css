@@ -1,11 +1,30 @@
 :root {
   --favicon-size: 48px;
-  --website-header-height: calc(var(--favicon-size) + 16px + 1px);
-  --color: black;
-  --accent-color: #77d694;
-  --accent-color-20: #77d69420;
-  --accent-secondary-color: #9f16b1;
-  --accent-secondary-color-20: #9f16b120;
+  --color: rgb(243, 242, 239);
+  --background-color: rgb(52, 60, 62);
+  --accent-color: rgb(179, 255, 231);
+  --accent-color-20: rgb(179, 255, 231, 0.2);
+  --accent-secondary-color: rgb(56, 197, 156);
+  --accent-secondary-color-20: rgb(56, 197, 156, 0.2)
+}
+
+.text-accent-secondary {
+  color: var(--accent-secondary-color);
+}
+
+html,
+body {
+  background-color: var(--background-color);
+  color: var(--color);
+}
+
+button>svg,
+a>svg {
+  filter: invert(1);
+}
+
+code {
+  color: var(--accent-secondary-color);
 }
 
 * {
@@ -26,6 +45,16 @@
   background-color: var(--accent-color);
   border-radius: 10px;
   border: 3px solid #ffffff;
+}
+
+header {
+  background-color: var(--accent-secondary-color-20);
+  backdrop-filter: blur(0.4rem);
+}
+
+footer {
+  background-color: var(--accent-secondary-color-20);
+  backdrop-filter: blur(0.4rem);
 }
 
 #favicon {
@@ -109,23 +138,36 @@
   background-color: var(--accent-secondary-color-20);
 }
 
+.bg-screen {
+  background-color: #0008;
+  backdrop-filter: blur(0.4rem);
+}
+
+.text-shadow {
+  text-shadow: 0.1rem 0.1rem 0.25rem black, 0.1rem 0.1rem 0.25rem black, 0.1rem 0.1rem 0.25rem black;
+}
+
 .fs-tiny {
   font-size: 0.6rem;
 }
 
-.container-grid {
-  display: grid;
-  gap: 1.5rem;
-  grid-template-columns: 3fr 9fr;
-}
-
-#aside-parent {
-  display: block;
-  height: calc(100vh - var(--website-header-height));
-  position: sticky;
-  top: var(--website-header-height);
-}
-
 body {
   padding-right: 0 !important;
+}
+
+@font-face {
+  font-family: "utdr";
+  src: url("/fonts/utdr.woff") format("woff");
+}
+
+.ff-utdr {
+  font-family: "utdr", serif;
+}
+
+.secret-text {
+  text-shadow: 4px 4px #222;
+}
+
+#secrets {
+  animation: hollow 4s linear infinite;
 }
