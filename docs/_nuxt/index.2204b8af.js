@@ -1,1 +1,0 @@
-import{r as u,A as c,u as f,B as l,C as p}from"./entry.fb018f5f.js";function d(t,a){const e=u({});return c(()=>{const s=l(t),{title:n,titleTemplate:o,...r}=s;e.value={title:n,titleTemplate:o,meta:p(r)}}),f(e,a)}export{d as u};
