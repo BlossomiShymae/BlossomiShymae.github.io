@@ -7,7 +7,7 @@
           <div class="d-flex">
             <div class="me-2 rounded-circle bg-accent-secondary-20">
               <NuxtLink to="/secret/thoughts">
-                <img src="/img/thumbnail.png" class="rounded-circle p-1" id="favicon" />
+                <img src="/img/avatar_3.png" class="rounded-circle p-1" id="favicon" />
               </NuxtLink>
             </div>
             <h3 class="fw-light">

@@ -166,6 +166,7 @@ const entries = [
   { avatar: "/img/avatar.png", background: "/img/carrd_bg.png", position: "right"},
   { avatar: "/img/avatar_1.png", background: "/img/carrd_bg_1.png", position: "right"},
   { avatar: "/img/avatar_2.png", background: "/img/carrd_bg_2.png", position: "right 50% top 10%"},
+  { avatar: "/img/avatar_3.png", background: "/img/carrd_bg_3.png", position: "right top 15%"}
 ];
 const key = Math.floor(Math.random() * entries.length);
 const entry = entries[key];
