@@ -145,6 +145,21 @@ import {
   PhTwitterLogo,
 } from "@phosphor-icons/vue";
 
+class WeightedRandomBag {
+  items: any[] = [];
+  accumulatedWeight: number = 0.0;
+
+  addEntry(object: any, weight: number): void {
+    this.accumulatedWeight += weight;
+    this.items.push({ object: object, accumulatedWeight: this.accumulatedWeight });
+  }
+
+  getRandom(): any {
+    var r = Math.random() * this.accumulatedWeight;
+    return this.items.find(i => i.accumulatedWeight >= r).object;
+  }
+}
+
 const linkCss =
   "fs-5 px-4 d-flex justify-content-between align-items-center btn bg-accent-secondary text-light fw-semibold rounded-3 text-decoration-none hover-dark-dim w-100 text-start";
 
@@ -162,14 +177,12 @@ useSeoMeta({
 });
 
 // Randomize avatar and background set
-const entries = [
-  { avatar: "/img/avatar.png", background: "/img/carrd_bg.png", position: "right"},
-  { avatar: "/img/avatar_1.png", background: "/img/carrd_bg_1.png", position: "right"},
-  { avatar: "/img/avatar_2.png", background: "/img/carrd_bg_2.png", position: "right 50% top 10%"},
-  { avatar: "/img/avatar_3.png", background: "/img/carrd_bg_3.png", position: "right top 15%"}
-];
-const key = Math.floor(Math.random() * entries.length);
-const entry = entries[key];
-console.info("Selecting entry:")
-console.table(entry);
+const bag = new WeightedRandomBag();
+
+bag.addEntry({ avatar: "/img/avatar.png", background: "/img/carrd_bg.png", position: "right"}, 10.0);
+bag.addEntry({ avatar: "/img/avatar_1.png", background: "/img/carrd_bg_1.png", position: "right"}, 10.0);
+bag.addEntry({ avatar: "/img/avatar_2.png", background: "/img/carrd_bg_2.png", position: "right 50% top 10%"}, 10.0);
+bag.addEntry({ avatar: "/img/avatar_3.png", background: "/img/carrd_bg_3.png", position: "right top 15%"}, 50.0);
+
+const entry = bag.getRandom();
 </script>
