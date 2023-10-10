@@ -34,7 +34,7 @@
               <PhGithubLogo :size="24" color="black" weight="fill" />
             </a>
             <a
-              href="https://reddit.com/u/MissUwuieTime"
+              href="https://reddit.com/u/BlossomiShymae"
               class="me-2 hover-dim rounded p-2"
               title="Reddit"
             >
@@ -76,13 +76,13 @@
     </main>
 
     <footer class="sticky-bottom d-flex flex-column justify-content-center border-top border-bottom border-accent border-2 gap-2">
-      <div class="d-flex justify-content-center pt-2 gap-2">
-        <NuxtLink to="/" class="btn bg-accent-20 text-decoration-none hover-accent-dim">Home</NuxtLink>
-        <NuxtLink to="/blog/programming-thingies" class="btn bg-accent-20 text-decoration-none hover-accent-dim">Programming Thingies</NuxtLink>
-        <NuxtLink to="/lol/champions" class="btn bg-accent-20 text-decoration-none hover-accent-dim">Champions</NuxtLink>
-        <NuxtLink to="/lol/items" class="btn bg-accent-20 text-decoration-none hover-accent-dim">Items</NuxtLink>
-        <NuxtLink to="/lol/runes" class="btn bg-accent-20 text-decoration-none hover-accent-dim">Runes</NuxtLink>
-        <NuxtLink to="/lol/summoner-icons" class="btn bg-accent-20 text-decoration-none hover-accent-dim">Summoner Icons</NuxtLink>
+      <div class="d-flex flex-wrap justify-content-center pt-2 gap-2">
+        <NuxtLink to="/" class="btn bg-accent-tertiary text-decoration-none hover-accent-dim">Home</NuxtLink>
+        <NuxtLink to="/blog/programming-thingies" class="btn bg-accent-tertiary text-decoration-none hover-accent-dim">Programming Thingies</NuxtLink>
+        <NuxtLink to="/lol/champions" class="btn bg-accent-tertiary text-decoration-none hover-accent-dim">Champions</NuxtLink>
+        <NuxtLink to="/lol/items" class="btn bg-accent-tertiary text-decoration-none hover-accent-dim">Items</NuxtLink>
+        <NuxtLink to="/lol/runes" class="btn bg-accent-tertiary text-decoration-none hover-accent-dim">Runes</NuxtLink>
+        <NuxtLink to="/lol/summoner-icons" class="btn bg-accent-tertiary text-decoration-none hover-accent-dim">Summoner Icons</NuxtLink>
      
       </div>
      

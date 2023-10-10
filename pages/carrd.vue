@@ -33,7 +33,7 @@
           </div>
 
           <div class="text-center text-dark">
-            <h3 class="fw-light">Blossomi Shymae 🌸💔</h3>
+            <h3 class="fw-light">@blossomishymae 🌸💔</h3>
             <p class="lead fw-bold"><span class="badge bg-accent-secondary rounded-pill">anxious elf girl</span> <span class="text-accent-secondary fw-bold">ブロソミー・シャイマエ</span></p>
           </div>
         </div>
