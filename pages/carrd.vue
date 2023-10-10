@@ -3,41 +3,44 @@
     <ClientOnly>
       <div
     id="carrd-page"
-    class="d-flex justify-content-center align-items-center vh-100"
+    class="d-flex justify-content-center align-items-start "
     :style="`background-image: url(${entry.background})`"
   >
-    <div id="carrd" class="card py-4 shadow rounded-4">
-      <div class="d-flex justify-content-center">
-        <div
+    <div id="carrd" class="card m-2 py-4 px-4 shadow rounded-4">
+      <div class="row">
+        <div class="col-md-6">
+          <div
           class="d-flex justify-content-center align-items-center"
           style="position: relative"
         >
-          <div
-            class="rounded-circle mx-2 mb-4"
-            id="spinner"
-            style="position: absolute"
-          ></div>
-          <div class="rounded-circle mx-2 mb-4" style="z-index: 1">
-            <NuxtLink to="/secret/truth">
-              <img
-                class="rounded-circle p-1"
-                id="carrd-avatar"
-                :src="entry.avatar"
-              />
-            </NuxtLink>
+          <div class="d-flex justify-content-center">
+            <div
+              class="rounded-circle mx-2 mb-4"
+              id="spinner"
+              style="position: absolute"
+            ></div>
+            <div class="rounded-circle mx-2 mb-4" style="z-index: 1">
+              <NuxtLink to="/secret/truth">
+                <img
+                  class="rounded-circle p-1"
+                  id="carrd-avatar"
+                  :src="entry.avatar"
+                />
+              </NuxtLink>
+            </div>
+          </div>
+      
+          </div>
+
+          <div class="text-center text-dark">
+            <h3 class="fw-light">Blossomi Shymae 🌸💔</h3>
+            <p class="lead fw-bold"><span class="badge bg-accent-secondary rounded-pill">anxious elf girl</span> <span class="text-accent-secondary fw-bold">ブロソミー・シャイマエ</span></p>
           </div>
         </div>
-        <div id="jp" class="d-flex justify-content-center align-items-center">
-          <span class="fs-6 text-dark">ドキ ドキ</span>
-        </div>
-      </div>
 
-      <div class="text-center text-dark">
-        <h3 class="fw-light">Blossomi Shymae 🌸💔</h3>
-        <p class="lead fw-bold">Virtual coder and web denizen</p>
-      </div>
-      <ul
-        class="mb-2 p-4 list-unstyled flex-column border-none border-dark-subtle border-top border-bottom"
+        <div class="col-md-6  ">
+          <ul
+        class=" list-unstyled flex-column"
       >
         <li class="mb-2">
           <NuxtLink to="/" :class="linkCss">
@@ -86,8 +89,13 @@
           </a>
         </li>
       </ul>
-      <div class="card-body text-center fw-semibold text-dark">
-        <p>Not affiliated or endorsed with carrd.co 💜</p>
+        </div>
+      </div>
+
+      <div class="row border-none border-dark-subtle border-top">
+        <div class="card-body text-center fw-semibold text-dark">
+          <p>Not affiliated or endorsed with carrd.co 💜</p>
+        </div>
       </div>
     </div>
   </div>
@@ -96,16 +104,22 @@
 </template>
 
 <style scoped>
+html, body, #__nuxt, #pageless-layout {
+  height: 100% !important;
+}
+
 #carrd-page {
   --avatar-height: 200px;
   --avatar-width: 200px;
 
   background-position: v-bind(entry.position);
   background-size: cover;
+  height: 100vh;
+  width: 100vw;
 }
 
 #carrd {
-  width: 24rem;
+  width: 800px;
   background-color: #ffffffe0;
 }
 
