@@ -5,7 +5,8 @@
   --accent-color: rgb(179, 255, 231);
   --accent-color-20: rgb(179, 255, 231, 0.2);
   --accent-secondary-color: rgb(56, 197, 156);
-  --accent-secondary-color-20: rgb(56, 197, 156, 0.2)
+  --accent-secondary-color-20: rgb(56, 197, 156, 0.2);
+  --accent-tertiary: #AA84BC;
 }
 
 .text-accent-secondary {
@@ -136,6 +137,10 @@ footer {
 
 .bg-accent-secondary-20 {
   background-color: var(--accent-secondary-color-20);
+}
+
+.bg-accent-tertiary {
+  background-color: var(--accent-tertiary);
 }
 
 .bg-screen {
