@@ -197,6 +197,7 @@ bag.addEntry({ avatar: "/img/avatar.png", background: "/img/carrd_bg.png", posit
 bag.addEntry({ avatar: "/img/avatar_1.png", background: "/img/carrd_bg_1.png", position: "right"}, 10.0);
 bag.addEntry({ avatar: "/img/avatar_2.png", background: "/img/carrd_bg_2.png", position: "right 50% top 10%"}, 10.0);
 bag.addEntry({ avatar: "/img/avatar_3.png", background: "/img/carrd_bg_3.png", position: "right top 15%"}, 50.0);
+bag.addEntry({ avatar: "/img/avatar_4.png", background: "/img/carrd_bg_4.png", position: "right"}, 25.0);
 
 const entry = bag.getRandom();
 </script>
