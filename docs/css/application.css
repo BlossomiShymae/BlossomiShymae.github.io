@@ -1,9 +1,9 @@
 :root {
   --favicon-size: 48px;
-  --color: rgb(243, 242, 239);
-  --background-color: rgb(52, 60, 62);
-  --accent-color: rgb(179, 255, 231);
-  --accent-color-20: rgb(179, 255, 231, 0.2);
+  --color: rgb(31, 31, 31);
+  --background-color: #DAE0E6;
+  --accent-color: rgb(255,255,255);
+  --accent-color-20: rgb(255, 255, 255, 0.2);
   --accent-secondary-color: rgb(56, 197, 156);
   --accent-secondary-color-20: rgb(56, 197, 156, 0.2);
   --accent-tertiary: #AA84BC;
@@ -21,7 +21,7 @@ body {
 
 button>svg,
 a>svg {
-  filter: invert(1);
+  filter: invert(0);
 }
 
 code {
@@ -49,18 +49,24 @@ code {
 }
 
 header {
-  background-color: var(--accent-secondary-color-20);
-  backdrop-filter: blur(0.4rem);
+  background-color: var(--accent-color);
 }
 
 footer {
-  background-color: var(--accent-secondary-color-20);
-  backdrop-filter: blur(0.4rem);
+  background-color: var(--accent-color);
+}
+
+body {
+  padding-right: 0 !important;
 }
 
 #favicon {
   width: var(--favicon-size);
   height: var(--favicon-size);
+}
+
+.border, .border-bottom {
+  border-color: rgb(180, 180, 180) !important;
 }
 
 .text-decoration-none {
@@ -154,10 +160,6 @@ footer {
 
 .fs-tiny {
   font-size: 0.6rem;
-}
-
-body {
-  padding-right: 0 !important;
 }
 
 @font-face {
