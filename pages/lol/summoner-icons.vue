@@ -20,7 +20,7 @@
           }}
         </code>
       </p>
-      <div class="border rounded bg-dark p-3">
+      <div class="border rounded p-3">
         <table class="table table-striped table-hover">
           <thead>
             <th scope="col">ID</th>

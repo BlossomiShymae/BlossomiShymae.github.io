@@ -4,7 +4,6 @@
       <div
     id="carrd-page"
     class="d-flex justify-content-center align-items-start "
-    :style="`background-image: url(${entry.background})`"
   >
     <div id="carrd" class="card m-2 py-4 px-4 shadow rounded-4">
       <div class="row">
@@ -34,7 +33,7 @@
 
           <div class="text-center text-dark">
             <h3 class="fw-light">@blossomishymae 🌸💔</h3>
-            <p class="lead fw-bold"><span class="badge bg-accent-secondary rounded-pill">anxious elf girl</span> <span class="text-accent-secondary fw-bold">ブロソミー・シャイマエ</span></p>
+            <p class="lead fw-bold"><span class="text-accent-secondary fw-bold">ブロソミー・シャイマエ</span></p>
           </div>
         </div>
 
@@ -196,8 +195,9 @@ const bag = new WeightedRandomBag();
 bag.addEntry({ avatar: "/img/avatar.png", background: "/img/carrd_bg.png", position: "right"}, 10.0);
 bag.addEntry({ avatar: "/img/avatar_1.png", background: "/img/carrd_bg_1.png", position: "right"}, 10.0);
 bag.addEntry({ avatar: "/img/avatar_2.png", background: "/img/carrd_bg_2.png", position: "right 50% top 10%"}, 10.0);
-bag.addEntry({ avatar: "/img/avatar_3.png", background: "/img/carrd_bg_3.png", position: "right top 15%"}, 50.0);
-bag.addEntry({ avatar: "/img/avatar_4.png", background: "/img/carrd_bg_4.png", position: "right"}, 25.0);
+bag.addEntry({ avatar: "/img/avatar_3.png", background: "/img/carrd_bg_3.png", position: "right top 15%"}, 10.0);
+bag.addEntry({ avatar: "/img/avatar_4.png", background: "/img/carrd_bg_4.png", position: "right"}, 10.0);
+bag.addEntry({ avatar: "/img/avatar_5.png", background: "", position : "right"}, 100.0);
 
 const entry = bag.getRandom();
 </script>
