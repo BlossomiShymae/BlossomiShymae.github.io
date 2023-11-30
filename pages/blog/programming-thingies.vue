@@ -25,6 +25,13 @@
         API to make things totes easier!
       </LinkCard>
       <LinkCard
+        src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/887/887020.jpg"
+        url="https://github.com/BlossomiShymae/snip-snip"
+      >
+        <h3 class="fw-bold">snip-snip</h3>
+        A CommunityDragon recursive directory downloader tool! ✂
+      </LinkCard>
+      <LinkCard
         src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/104/104005.jpg"
         url="https://github.com/DarkIntaqt/challenges"
       >
