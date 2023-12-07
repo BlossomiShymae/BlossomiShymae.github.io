@@ -1,12 +1,21 @@
 :root {
   --favicon-size: 48px;
-  --color: rgb(31, 31, 31);
-  --background-color: #DAE0E6;
-  --accent-color: rgb(255,255,255);
-  --accent-color-20: rgb(255, 255, 255, 0.2);
+  --color: rgb(240, 240, 240);
+  --background-color: #101010;
+  --accent-color: rgb(0, 0, 0);
+  --accent-color-20: rgb(0, 0, 0, 0.2);
   --accent-secondary-color: rgb(56, 197, 156);
   --accent-secondary-color-20: rgb(56, 197, 156, 0.2);
   --accent-tertiary: #AA84BC;
+}
+
+@font-face {
+  font-family: "utdr";
+  src: url("/fonts/utdr.woff") format("woff");
+}
+
+.ff-utdr {
+  font-family: "utdr", serif;
 }
 
 .text-accent-secondary {
@@ -16,12 +25,15 @@
 html,
 body {
   background-color: var(--background-color);
+
   color: var(--color);
+  font-family: "utdr", serif;
+  font-size: 14pt;
 }
 
 button>svg,
 a>svg {
-  filter: invert(0);
+  filter: invert(1);
 }
 
 code {
@@ -66,7 +78,7 @@ body {
 }
 
 .border, .border-bottom {
-  border-color: rgb(180, 180, 180) !important;
+  border-color: var(--accent-secondary-color) !important;
 }
 
 .text-decoration-none {
@@ -160,15 +172,6 @@ body {
 
 .fs-tiny {
   font-size: 0.6rem;
-}
-
-@font-face {
-  font-family: "utdr";
-  src: url("/fonts/utdr.woff") format("woff");
-}
-
-.ff-utdr {
-  font-family: "utdr", serif;
 }
 
 .secret-text {
