@@ -77,10 +77,6 @@
           <NuxtLink to="/" :class="navLinkCss">Home</NuxtLink>
           <NuxtLink to="/carrd" :class="navLinkCss">Socials</NuxtLink>
           <NuxtLink to="/blog/programming-thingies" :class="navLinkCss">Programming!</NuxtLink>
-          <NuxtLink to="/lol/champions" :class="navLinkCss">Champions</NuxtLink>
-          <NuxtLink to="/lol/items" :class="navLinkCss">Items</NuxtLink>
-          <NuxtLink to="/lol/runes" :class="navLinkCss">Runes</NuxtLink>
-          <NuxtLink to="/lol/summoner-icons" :class="navLinkCss">Summoner Icons</NuxtLink>
           <NuxtLink to="https://www.reddit.com/user/BlossomiShymae/comments/183dwu1/reference_sheet_3/" :class="navLinkCss">Art Reference</NuxtLink>
         </div>
          </div>
@@ -136,7 +132,7 @@ import {
   PhArrowRight,
 } from "@phosphor-icons/vue";
 
-const navLinkCss = "btn bg-accent-secondary text-decoration-none hover-dark-dim text-dark";
+const navLinkCss = "text-decoration-none text-light fs-5";
 </script>
 
 <style scoped>

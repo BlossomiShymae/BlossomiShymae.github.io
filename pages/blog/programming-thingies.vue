@@ -4,7 +4,7 @@
     <p>
       <a
         href="https://github.com/BlossomiShymae?tab=repositories"
-        class="text-decoration-none text-normal lead"
+        class="text-decoration-none text-normal text-light lead"
         >My complete list of programming thingies can be found here! 💜</a
       >
     </p>

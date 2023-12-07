@@ -5,7 +5,7 @@
     id="carrd-page"
     class="d-flex justify-content-center align-items-start "
   >
-    <div id="carrd" class="card m-2 py-4 px-4 shadow rounded-4">
+    <div id="carrd" class="card m-2 py-4 px-4 border rounded-0">
       <div class="row">
         <div class="col-md-6">
           <div
@@ -31,38 +31,38 @@
       
           </div>
 
-          <div class="text-center text-dark">
-            <h3 class="fw-light">@blossomishymae 🌸💔</h3>
+          <div class="text-center">
+            <h3 class="fw-light text-light">@blossomishymae 🌸💔</h3>
             <p class="lead fw-bold"><span class="text-accent-secondary fw-bold">ブロソミー・シャイマエ</span></p>
           </div>
         </div>
 
-        <div class="col-md-6  ">
+        <div class="col-md-6">
           <ul
-        class=" list-unstyled flex-column"
+        class="list-unstyled d-flex flex-column gap-1"
       >
         <li class="mb-2">
           <NuxtLink to="/" :class="linkCss">
             <div>GittyHub.io</div>
-            <PhPower :size="32" color="white" weight="light" />
+            <PhPower :size="32" color="black" weight="light" />
           </NuxtLink>
         </li>
         <li class="mb-2">
           <a href="https://github.com/BlossomiShymae" :class="linkCss">
             GittyHub
-            <PhGithubLogo :size="32" color="white" weight="fill" />
+            <PhGithubLogo :size="32" color="black" weight="fill" />
           </a>
         </li>
         <li class="mb-2">
           <a href="https://reddit.com/u/BlossomiShymae" :class="linkCss">
             /u/BlossomiShymae
-            <PhRedditLogo :size="32" color="white" weight="fill" />
+            <PhRedditLogo :size="32" color="black"  weight="fill" />
           </a>
         </li>
         <li class="mb-2">
           <a href="https://reddit.com/u/MissUwuieTime" :class="linkCss">
             /u/MissUwuieTime
-            <PhRedditLogo :size="32" color="white" weight="fill" />
+            <PhRedditLogo :size="32" color="black" weight="fill" />
           </a>
         </li>
         <li class="mb-2">
@@ -75,7 +75,7 @@
               viewBox="0 0 24 24"
             >
               <path
-                fill="white"
+                fill="black"
                 d="M14.563 24c-5.093 0-7.031-3.756-7.031-6.411V9.747H5.116V6.648c3.63-1.313 4.512-4.596 4.71-6.469C9.84.051 9.941 0 9.999 0h3.517v6.114h4.801v3.633h-4.82v7.47c.016 1.001.375 2.371 2.207 2.371h.09c.631-.02 1.486-.205 1.936-.419l1.156 3.425c-.436.636-2.4 1.374-4.156 1.404h-.178l.011.002z"
               />
             </svg>
@@ -84,15 +84,15 @@
         <li class="mb-2">
           <a href="https://twitter.com/BlossomiShymae" :class="linkCss">
             X / Twitter
-            <PhTwitterLogo :size="32" color="white" weight="fill" />
+            <PhTwitterLogo :size="32" color="black"  weight="fill" />
           </a>
         </li>
       </ul>
         </div>
       </div>
 
-      <div class="row border-none border-dark-subtle border-top">
-        <div class="card-body text-center fw-semibold text-dark">
+      <div class="row border-none border-top">
+        <div class="card-body text-center fw-semibold text-light">
           <p>Not affiliated or endorsed with carrd.co 💜</p>
         </div>
       </div>
@@ -119,7 +119,7 @@ html, body, #__nuxt, #pageless-layout {
 
 #carrd {
   width: 800px;
-  background-color: #ffffffe0;
+  background-color: #000000;
 }
 
 #jp {
@@ -174,7 +174,7 @@ class WeightedRandomBag {
 }
 
 const linkCss =
-  "fs-5 px-4 d-flex justify-content-between align-items-center btn bg-accent-secondary text-light fw-semibold rounded-3 text-decoration-none hover-dark-dim w-100 text-start";
+  "fs-5 px-4 d-flex justify-content-between align-items-center text-light fw-semibold rounded-3 text-decoration-none hover-dark-dim w-100 text-start";
 
 definePageMeta({
   layout: "pageless",
