@@ -1,0 +1,1 @@
+import{r as u,y as c,u as f,z as l,A as p}from"./entry.659b1b77.js";function d(t,a){const e=u({});return c(()=>{const s=l(t),{title:n,titleTemplate:o,...r}=s;e.value={title:n,titleTemplate:o,meta:p(r)}}),f(e,a)}export{d as u};
