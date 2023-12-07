@@ -1,5 +1,5 @@
 <template>
-  <div class="position-relative">
+  <div class="position-relative vh-100">
     <header
       class="sticky-top py-2 mb-4 border border-0 border-bottom"
     >
@@ -114,6 +114,14 @@
     
       </div>
     </main>
+
+    <div id="ticker">
+      <div class="d-flex">
+        <div v-for="info in infos">
+          <a class="text-light text-decoration-none" :href="info[0]">{{ info[1] }}</a>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -133,8 +141,34 @@ import {
 } from "@phosphor-icons/vue";
 
 const navLinkCss = "text-decoration-none text-light fs-5";
+
+const { data } = await useFetch("https://api.github.com/users/BlossomiShymae/repos");
+let repos = data.value as any[];
+repos = repos.filter(x => (x.fork == false) && (x.stargazers_count > 0));
+
+const infos = repos.map(x => [x.html_url, `${x.name}🌸 Language: ${x.language}📜 Stars: ${x.stargazers_count} ⭐    `]);
 </script>
 
 <style scoped>
+#ticker {
+  position: fixed;
+  bottom: 0;
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+}
 
+#ticker > div {
+  transform: translateX(100%);
+  animation: scroll 30s linear infinite;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
 </style>
