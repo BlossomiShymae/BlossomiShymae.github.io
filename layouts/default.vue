@@ -73,12 +73,12 @@
       <div class="row gap-4">
         <div class="col-lg-2">
          <div class="row bg-accent border mb-4">
-          <div class="d-flex flex-column justify-content-center py-4 gap-2">
-          <NuxtLink to="/" :class="navLinkCss">Home</NuxtLink>
-          <NuxtLink to="/carrd" :class="navLinkCss">Socials</NuxtLink>
-          <NuxtLink to="/blog/programming-thingies" :class="navLinkCss">Programming!</NuxtLink>
-          <NuxtLink to="https://www.reddit.com/user/BlossomiShymae/comments/183dwu1/reference_sheet_3/" :class="navLinkCss">Art Reference</NuxtLink>
-        </div>
+          <div id="links" class="d-flex flex-column justify-content-center py-4 gap-2">
+            <NuxtLink to="/" :class="navLinkCss">Home!</NuxtLink>
+            <NuxtLink to="/carrd" :class="navLinkCss">Socials!</NuxtLink>
+            <NuxtLink to="/blog/programming-thingies" :class="navLinkCss">Programming!</NuxtLink>
+            <NuxtLink to="https://www.reddit.com/user/BlossomiShymae/comments/183dwu1/reference_sheet_3/" :class="navLinkCss">Art Reference!</NuxtLink>
+          </div>
          </div>
 
         <div class="row bg-accent border">

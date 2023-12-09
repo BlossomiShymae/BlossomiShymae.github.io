@@ -181,3 +181,12 @@ body {
 #secrets {
   animation: hollow 4s linear infinite;
 }
+
+#links > * {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#links > *:nth-of-type(2n) {
+  background-color: var(--accent-secondary-color-20);
+}
