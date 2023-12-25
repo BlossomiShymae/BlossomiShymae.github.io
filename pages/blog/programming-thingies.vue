@@ -10,6 +10,13 @@
     </p>
     <div class="d-flex flex-wrap" style="gap: 24px">
       <LinkCard
+        src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/loadouts/companions/tooltip_chibigwen_base_classic_tier1.png"
+        url="https://github.com/BlossomiShymae/Needlework"
+      >
+        <h3 class="fw-bold">Needlework</h3>
+        A helper development tool for the LCU!
+      </LinkCard>
+      <LinkCard
         src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/99/99006.jpg"
         url="https://github.com/BlossomiShymae/llux"
       >
@@ -41,6 +48,13 @@
         </h3>
         A League of Legends website dedicated to tracking all challenge-related
         thingies! Owned by DarkIntaqt.com.
+      </LinkCard>
+      <LinkCard
+        src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/loadouts/companions/tooltip_chibigwen_soulfighter_soulfighter_tier1.png"
+        url="https://github.com/BlossomiShymae/skip-n-slash"
+      >
+        <h3 class="fw-bold">skip-n-slash</h3>
+        A desktop version of the raw.communitydragon.org search bar.
       </LinkCard>
       <LinkCard
         src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/40/40046.jpg"

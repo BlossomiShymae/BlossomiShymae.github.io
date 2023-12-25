@@ -115,13 +115,15 @@
       </div>
     </main>
 
-    <div id="ticker">
-      <div class="d-flex">
-        <div v-for="info in infos">
-          <a class="text-light text-decoration-none" :href="info[0]">{{ info[1] }}</a>
+    <ClientOnly>
+      <div id="ticker">
+        <div class="d-flex">
+          <div v-for="info in infos">
+            <a class="text-light text-decoration-none" :href="info[0]">{{ info[1] }}</a>
+          </div>
         </div>
       </div>
-    </div>
+    </ClientOnly>
   </div>
 </template>
 
