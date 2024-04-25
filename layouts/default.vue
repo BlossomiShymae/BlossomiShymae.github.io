@@ -102,9 +102,7 @@
             <span class="fw-bold">Nuxt</span>!
           </p>
         </div>
-        <p class="fs-tiny text-center">blossomishymae.github.io was created under Riot Games' "Legal Jibber
-            Jabber" policy using assets owned by Riot Games. Riot Games does not
-            endorse or sponsor this project.</p>
+      
         </div>
       </div>
 
