@@ -10,6 +10,20 @@
     </p>
     <div class="d-flex flex-wrap" style="gap: 18px">
       <LinkCard
+        src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/498/498004.jpg"
+        url="https://github.com/BlossomiShymae/clean-cuts"
+        >
+        <h3 class="fw-bold">Clean Cuts</h3>
+        Making game data viewable in a human-friendly format. 
+      </LinkCard>
+      <LinkCard
+        src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/163/163003.jpg"
+        url="https://github.com/BlossomiShymae/barcodes"
+        >
+        <h3 class="fw-bold">barcodes</h3>
+        Display your pride in the terminal
+      </LinkCard>
+      <LinkCard
         src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/loadouts/companions/tooltip_chibigwen_base_classic_tier1.png"
         url="https://github.com/BlossomiShymae/Needlework"
       >
