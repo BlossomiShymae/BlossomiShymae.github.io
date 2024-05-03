@@ -23,7 +23,7 @@
                 <img
                   class="rounded-circle p-1"
                   id="carrd-avatar"
-                  :src="entry.avatar"
+                  src="/img/avatar_cute.png"
                 />
               </NuxtLink>
             </div>

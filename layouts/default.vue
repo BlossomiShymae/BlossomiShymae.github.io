@@ -7,82 +7,34 @@
           <div class="d-flex align-items-center">
             <div class="me-2 rounded-circle bg-accent-secondary-20">
               <NuxtLink to="/secret/thoughts">
-                <img src="/img/avatar_5.png" class="rounded-circle p-1" id="favicon" />
+                <img src="/img/avatar_cute.png" class="rounded-circle p-1" id="favicon" />
               </NuxtLink>
             </div>
             <h3 class="fw-light">
-              blossomishymae.github.io
+              <NuxtLink to="/" class="text-light text-decoration-none">blossomishymae.github.io</NuxtLink>
             </h3>
           </div>
 
           <div class="d-flex justify-content-end flex-wrap">
           <div
-            class="d-flex justify-content-end align-items-center w-100 h-100"
+            class="d-flex justify-content-end align-items-center gap-3 w-100 h-100"
           >
-            <NuxtLink
-              to="/carrd"
-              class="me-2 hover-dim rounded p-2"
-              title="Carrd"
-            >
-              <PhCards :size="24" color="black" weight="fill" />
-            </NuxtLink>
-            <a
-              href="https://github.com/BlossomiShymae"
-              class="me-2 hover-dim rounded p-2"
-              title="GitHub"
-            >
-              <PhGithubLogo :size="24" color="black" weight="fill" />
-            </a>
-            <a
-              href="https://reddit.com/u/BlossomiShymae"
-              class="me-2 hover-dim rounded p-2"
-              title="Reddit"
-            >
-              <PhRedditLogo :size="24" color="black" weight="fill" />
-            </a>
-            <a
-              href="https://twitter.com/blossomishymae"
-              class="me-2 hover-dim rounded p-2"
-              title="Twitter"
-            >
-              <PhTwitterLogo :size="24" color="black" weight="fill" />
-            </a>
-            <a
-              href="https://tumblr.com/blossomishymae"
-              class="me-2 hover-dim rounded p-2"
-              title="Tumblr"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  fill="black"
-                  d="M14.563 24c-5.093 0-7.031-3.756-7.031-6.411V9.747H5.116V6.648c3.63-1.313 4.512-4.596 4.71-6.469C9.84.051 9.941 0 9.999 0h3.517v6.114h4.801v3.633h-4.82v7.47c.016 1.001.375 2.371 2.207 2.371h.09c.631-.02 1.486-.205 1.936-.419l1.156 3.425c-.436.636-2.4 1.374-4.156 1.404h-.178l.011.002z"
-                />
-              </svg>
-            </a>
+            <NuxtLink to="/carrd" :class="navLinkCss">Socials!</NuxtLink>
+            <NuxtLink to="/blog/programming-thingies" :class="navLinkCss">Programming!</NuxtLink>
+            <NuxtLink to="https://www.reddit.com/user/BlossomiShymae/comments/183dwu1/reference_sheet_3/" :class="navLinkCss">Art Reference!</NuxtLink>
           </div>
         </div>
     </nav>
     </header>
 
-    <main class="container mb-4">
-      <div class="row gap-4">
-        <div class="col-lg-2">
-         <div class="row bg-accent border mb-4">
-          <div id="links" class="d-flex flex-column justify-content-center py-4 gap-2">
-            <NuxtLink to="/" :class="navLinkCss">Home!</NuxtLink>
-            <NuxtLink to="/carrd" :class="navLinkCss">Socials!</NuxtLink>
-            <NuxtLink to="/blog/programming-thingies" :class="navLinkCss">Programming!</NuxtLink>
-            <NuxtLink to="https://www.reddit.com/user/BlossomiShymae/comments/183dwu1/reference_sheet_3/" :class="navLinkCss">Art Reference!</NuxtLink>
-          </div>
-         </div>
+    <div class="container">
+        <main role="main" class="pt-3 pb-3">
+            <slot></slot>
+        </main>
+    </div>
 
-        <div class="row bg-accent border">
-            <div class="d-flex justify-content-center">
+    <footer class="container border border-light border-opacity-25 rounded p-2 mt-2 mb-4 bg-blur-4">
+        <div class="d-flex justify-content-center">
           <p class="border-top border-accent border-2 mb-0">
             Made with
             <svg
@@ -102,16 +54,7 @@
             <span class="fw-bold">Nuxt</span>!
           </p>
         </div>
-      
-        </div>
-      </div>
-
-      <div class="col-lg-9 bg-accent border">
-        <slot></slot>
-      </div>
-    
-      </div>
-    </main>
+    </footer>
   </div>
 </template>
 

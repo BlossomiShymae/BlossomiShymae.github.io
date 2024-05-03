@@ -8,7 +8,7 @@
         >My complete list of programming thingies can be found here! 💜</a
       >
     </p>
-    <div class="d-flex flex-wrap" style="gap: 24px">
+    <div class="d-flex flex-wrap" style="gap: 18px">
       <LinkCard
         src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/loadouts/companions/tooltip_chibigwen_base_classic_tier1.png"
         url="https://github.com/BlossomiShymae/Needlework"
