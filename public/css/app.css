@@ -190,3 +190,7 @@ body {
 #links > *:nth-of-type(2n) {
   background-color: var(--accent-secondary-color-20);
 }
+
+.divider {
+  height: 6rem;
+}
