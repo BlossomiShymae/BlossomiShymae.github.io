@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="row">
+    <div class="row" data-aos="fade-left" data-aos-duration="1000">
       <div class="col-lg-6">
         <div style="width: 320px;">
           <img class="img-fluid" src="/img/blossomi_logo.png" />
@@ -22,7 +22,7 @@
 
     <div class="divider"></div>
 
-    <div class="row">
+    <div class="row" data-aos="fade-right" data-aos-duration="1000">
       <div class="col-lg-6 d-flex justify-content-center">
         <div style="width: 320px;">
           <img class="img-fluid" src="/img/blossomi_peek.png" />
@@ -38,7 +38,7 @@
 
     <div class="divider"></div>
 
-    <div class="row">
+    <div class="row" data-aos="fade-left" data-aos-duration="1000">
       <div class="col-lg-6">
         <h1 class="border-bottom pb-2">Socials</h1>
         <div class="d-flex flex-column align-items-stretch gap-3">
@@ -57,7 +57,7 @@
 
     <div class="divider"></div>
 
-    <div class="row">
+    <div class="row" data-aos="fade-right" data-aos-duration="1000">
       <div class="col-lg-6 d-flex justify-content-center">
         <div style="width: 320px">
           <img class="img-fluid" src="/img/blossomi_uwu.png"/>

@@ -26,4 +26,9 @@
 }
 </style>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
+</script>
