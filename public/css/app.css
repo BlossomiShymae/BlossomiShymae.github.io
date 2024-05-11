@@ -166,6 +166,10 @@ body {
   backdrop-filter: blur(0.4rem);
 }
 
+.bg-right-gradient {
+  background: linear-gradient(270deg, var(--background-color), var(--accent-secondary-color-20));
+}
+
 .text-shadow {
   text-shadow: 0.1rem 0.1rem 0.25rem black, 0.1rem 0.1rem 0.25rem black, 0.1rem 0.1rem 0.25rem black;
 }
