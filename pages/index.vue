@@ -42,7 +42,7 @@
       <div class="col-lg-6">
         <h1 class="border-bottom pb-2">Socials</h1>
         <div class="d-flex flex-column align-items-stretch gap-3">
-          <a href="https://reddit.com/u/BlossomiShymae" class="text-decoration-none text-light lead bg-right-gradient ps-2">/u/BlossomiShymae</a>
+          <a href="https://reddit.com/u/BlossomiShymae" class="text-decoration-none text-light lead bg-right-gradient ps-2">Reddit</a>
           <a href="https://github.com/BlossomiShymae" class="text-decoration-none text-light lead bg-right-gradient ps-2">GitHub</a>
           <a href="https://tumblr.com/blossomishymae" class="text-decoration-none text-light lead bg-right-gradient ps-2">Tumblr</a>
           <a href="https://twitter.com/BlossomiShymae" class="text-decoration-none text-light lead bg-right-gradient ps-2">X / Twitter</a>
