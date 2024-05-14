@@ -66,6 +66,7 @@
       <div class="col-lg-6">
         <h1 class="border-bottom pb-2">Contact</h1>
         <p class="lead"><a href="https://old.reddit.com/user/BlossomiShymae/" class="text-light">Send a private message (not chat) to my Reddit!</a></p>
+        <p class="lead"><a href="https://discord.gg/chEvEX5J4E" class="text-light">I can also be reached via my Discord server!</a></p>
       </div>
     </div>
 
