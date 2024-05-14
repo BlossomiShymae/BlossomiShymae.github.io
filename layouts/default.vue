@@ -2,6 +2,7 @@
   <div class="position-relative vh-100">
     <header
       class="sticky-top py-2 mb-4 border border-0 border-bottom"
+      style="position: relative; z-index: 0;"
     >
     <nav class="d-flex justify-content-around align-items-center flex-wrap">
           <div class="d-flex align-items-center">
@@ -20,6 +21,7 @@
             class="d-flex justify-content-end align-items-center gap-3 w-100 h-100"
           >
             <NuxtLink to="/carrd" :class="navLinkCss">Socials!</NuxtLink>
+            <NuxtLink to="/gallery" :class="navLinkCss">Gallery!</NuxtLink>
             <NuxtLink to="/blog/programming-thingies" :class="navLinkCss">Programming!</NuxtLink>
             <NuxtLink to="https://www.reddit.com/user/BlossomiShymae/comments/183dwu1/reference_sheet_3/" :class="navLinkCss">Art Reference!</NuxtLink>
           </div>
