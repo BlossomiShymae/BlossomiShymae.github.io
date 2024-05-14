@@ -31,8 +31,8 @@
       <div class="col-lg-6">
         <h1 class="border-bottom pb-2">Background</h1>
         <p class="lead">I'm a trans girl that is continuing the journey in discovering herself. 
-          I hope to be a content creator one day but I'm not comfortable in doing so yet.
-          As of now, I primarily make open-source programming tools and apps for the Riot Games Third Party Developer Community. </p>
+          I hope to be a content creator one day but I'm not comfortable in doing so yet. </p>
+          <p class="lead">As of now, I primarily make open-source programming tools and apps for the Riot Games Third Party Developer Community.</p>
       </div>
     </div>
 
