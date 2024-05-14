@@ -1,5 +1,7 @@
 <template>
-  <div>
+  <div class="p-4">
+    <h1>Gallery</h1>
+    <p class="lead">Art of myself. :3</p>
     <div v-for="row in gallery">
       <div class="row">
         <div v-for="image in row" class="col-lg-4 mb-4" data-aos="fade-left" data-aos-duration="1000">
