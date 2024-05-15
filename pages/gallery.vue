@@ -17,6 +17,7 @@
 
 <script setup lang="ts">
 const items = [
+  "/img/abh.png",
   "/img/cross_stretch.png",
   "/img/tfc.png",
   "/img/aqua_face.png",
