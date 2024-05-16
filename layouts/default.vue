@@ -39,7 +39,7 @@
 
       <footer style="background-color: transparent;" class="container rounded p-2 mt-2 mb-4 bg-blur-4">
           <div class="d-flex justify-content-center">
-            <p class="border-top border-accent border-2 mb-0">
+            <p class="mb-0">
               Made with
               <svg
                 width="24"
