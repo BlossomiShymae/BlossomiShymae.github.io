@@ -124,6 +124,15 @@ body {
   border-bottom: 1px solid var(--color);
 }
 
+.hover-spin {
+  transform: none;
+  transition: transform 500ms ease-in-out;
+}
+
+.hover-spin:hover {
+  transform: rotate(360deg);
+}
+
 .border-accent {
   border-top-color: var(--accent-color) !important;
   border-left-color: var(--accent-color) !important;

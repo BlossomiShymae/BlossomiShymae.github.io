@@ -11,13 +11,13 @@
           I chat with friends and do totes random things, such as gaming, drawing, programming, and surfing the web.</p>
 
           <div class="d-flex flex-wrap gap-4">
-            <a href="https://discord.gg/chEvEX5J4E">
+            <a class="hover-spin" href="https://discord.gg/chEvEX5J4E">
               <FontAwesomeIcon :style="{color: 'white'}" :icon="faDiscord" size="4x"/>
             </a>
-            <a href="https://reddit.com/u/BlossomiShymae">
+            <a class="hover-spin" href="https://reddit.com/u/BlossomiShymae">
               <FontAwesomeIcon :style="{color: 'white'}" :icon="faReddit" size="4x"/>
             </a>
-            <a href="https://github.com/BlossomiShymae">
+            <a class="hover-spin" href="https://github.com/BlossomiShymae">
               <FontAwesomeIcon :style="{color: 'white'}" :icon="faGithub" size="4x"/>
             </a>
           </div>
