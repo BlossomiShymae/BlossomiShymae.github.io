@@ -93,6 +93,6 @@
 
 <script lang="ts" setup>
 useHead({
-  title: "Her Programming Thingies - blossomishymae.github.io",
+  title: "Programming - blossomishymae.github.io",
 });
 </script>

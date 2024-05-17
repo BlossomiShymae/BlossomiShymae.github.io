@@ -16,6 +16,10 @@
 </template>
 
 <script setup lang="ts">
+useHead({
+  title: "Gallery - blossomishymae.github.io"
+});
+
 const items = [
   "/img/abh.png",
   "/img/cross_stretch.png",
