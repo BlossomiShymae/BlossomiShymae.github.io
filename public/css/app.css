@@ -34,11 +34,6 @@ body {
   font-size: 14pt;
 }
 
-button>svg,
-a>svg {
-  filter: invert(1);
-}
-
 code {
   color: var(--accent-secondary-color);
 }
