@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="row" data-aos="fade-left" data-aos-duration="1000">
-      <div class="col-lg-6">
+      <div class="col-lg-6 mb-4">
         <div style="width: 320px;">
           <img class="img-fluid" src="/img/blossomi_logo.png" />
         </div>
@@ -21,7 +21,6 @@
               <FontAwesomeIcon :style="{color: 'white'}" :icon="faGithub" size="4x"/>
             </a>
           </div>
-
       </div>
       <div class="col-lg-6">
         <div class="d-flex justify-content-center align-items-center mb-4">
@@ -51,7 +50,7 @@
     <div class="divider"></div>
 
     <div class="row" data-aos="fade-left" data-aos-duration="1000">
-      <div class="col-lg-6">
+      <div class="col-lg-6 mb-4">
         <h1 class="border-bottom pb-2">Socials</h1>
         <div class="d-flex flex-column align-items-stretch gap-3">
           <a href="https://reddit.com/u/BlossomiShymae" class="text-decoration-none text-light lead bg-right-gradient ps-2">Reddit</a>
