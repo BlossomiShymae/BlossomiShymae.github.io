@@ -22,7 +22,6 @@
             <div
               class="d-flex justify-content-end align-items-center gap-3 w-100 h-100"
             >
-              <NuxtLink to="/carrd" :class="navLinkCss">Socials!</NuxtLink>
               <NuxtLink to="/gallery" :class="navLinkCss">Gallery!</NuxtLink>
               <NuxtLink to="/blog/programming-thingies" :class="navLinkCss">Programming!</NuxtLink>
               <NuxtLink to="https://www.reddit.com/user/BlossomiShymae/comments/183dwu1/reference_sheet_3/" :class="navLinkCss">Art Reference!</NuxtLink>
