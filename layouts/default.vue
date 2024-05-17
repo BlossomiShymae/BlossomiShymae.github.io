@@ -14,7 +14,7 @@
                 </NuxtLink>
               </div>
               <h3 class="fw-light">
-                <NuxtLink to="/" class="text-light text-decoration-none">blossomishymae.github.io</NuxtLink>
+                <NuxtLink to="/" class="text-light text-decoration-none hover-underline">blossomishymae.github.io</NuxtLink>
               </h3>
             </div>
 
@@ -66,7 +66,7 @@
 import { tsParticles } from "@tsparticles/engine";
 import { loadFirePreset } from "@tsparticles/preset-fire";
 
-const navLinkCss = "text-decoration-none text-light fs-5";
+const navLinkCss = "text-decoration-none text-light fs-5 hover-underline";
 
 await loadFirePreset(tsParticles);
 
