@@ -21,6 +21,7 @@ useHead({
 });
 
 const items = [
+  "/img/headpats.png",
   "/img/abh.png",
   "/img/cross_stretch.png",
   "/img/tfc.png",
