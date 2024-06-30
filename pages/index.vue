@@ -7,7 +7,7 @@
         </div>
         <h4 class="mb-4 pb-2 border-bottom"><span class="text-accent-secondary fw-bold">ブロソミー・シャイマエ</span></h4>
 
-        <p class="lead">Hiii! I'm Blossomi Shymae, your shy lonely elf girl.
+        <p class="lead">Hiii! I'm Blossomi Shymae, your shy elf girl.
           I chat with friends and do totes random things, such as gaming, drawing, programming, and surfing the web.</p>
 
           <div class="d-flex flex-wrap gap-4">
@@ -25,7 +25,7 @@
       <div class="col-lg-6">
         <div class="d-flex justify-content-center align-items-center mb-4">
           <div style="width: 450px;">
-            <img src="/img/banner_2.png" class="img-fluid"/>
+            <img src="/img/june_2024.png" class="img-fluid"/>
           </div>
         </div>
       </div>

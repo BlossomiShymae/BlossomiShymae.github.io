@@ -21,6 +21,9 @@ useHead({
 });
 
 const items = [
+  "/img/june_2024.png",
+  "/img/morning.png",
+  "/img/you_can_give.png",
   "/img/headpats.png",
   "/img/abh.png",
   "/img/cross_stretch.png",

@@ -165,6 +165,11 @@ body {
   backdrop-filter: blur(0.4rem);
 }
 
+.bg-accent-blur {
+  background-color: var(--accent-secondary-color-20);
+  backdrop-filter: blur(32px);
+}
+
 .bg-right-gradient {
   background: linear-gradient(270deg, var(--background-color), var(--accent-secondary-color-20));
 }
