@@ -24,7 +24,6 @@
             >
               <NuxtLink to="/gallery" :class="navLinkCss">Gallery!</NuxtLink>
               <NuxtLink to="/blog/programming-thingies" :class="navLinkCss">Programming!</NuxtLink>
-              <NuxtLink to="https://www.reddit.com/user/BlossomiShymae/comments/183dwu1/reference_sheet_3/" :class="navLinkCss">Art Reference!</NuxtLink>
             </div>
           </div>
       </nav>
