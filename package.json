@@ -15,11 +15,14 @@
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/vue-fontawesome": "^3.0.6",
     "@phosphor-icons/vue": "^2.1.4",
     "@tsparticles/engine": "^3.4.0",
     "@tsparticles/preset-fire": "^3.0.2",
     "aos": "^2.3.4",
-    "axios": "^1.4.0"
+    "axios": "^1.4.0",
+    "localstorage-slim": "^2.7.1",
+    "nuxt-app": "file:"
   }
 }

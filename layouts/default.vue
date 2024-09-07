@@ -23,7 +23,7 @@
               class="d-flex justify-content-end align-items-center gap-3 w-100 h-100"
             >
               <NuxtLink to="/gallery" :class="navLinkCss">Gallery!</NuxtLink>
-              <NuxtLink to="/blog/programming-thingies" :class="navLinkCss">Programming!</NuxtLink>
+              <NuxtLink to="/portfolio" :class="navLinkCss">Portfolio!</NuxtLink>
             </div>
           </div>
       </nav>
