@@ -21,6 +21,11 @@ useHead({
 });
 
 const items = [
+  "/img/depression.png",
+  "/img/blossomi_pout_full.png",
+  "/img/blossomi_uwu_full.png",
+  "/img/worry.png",
+  "/img/sob_share.png",
   "/img/grrrlcu.png",
   "/img/june_2024.png",
   "/img/morning.png",

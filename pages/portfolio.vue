@@ -64,7 +64,7 @@ useHead({
 
 var repositories = ls.get("repositories") as GithubRepository[] | null;
 if (repositories == null) {
-  const res = await axios.get<GithubRepository[]>("https://api.github.com/users/BlossomiShymae/repos");
+  const res = await axios.get<GithubRepository[]>("https://api.github.com/users/BlossomiShymae/repos?per_page=100");
   repositories = res.data;
   ls.set("repositories", repositories, { ttl: 60 * 60}); // Set cache for an hour
 }
