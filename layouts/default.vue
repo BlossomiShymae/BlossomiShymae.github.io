@@ -22,6 +22,7 @@
             <div
               class="d-flex justify-content-end align-items-center gap-3 w-100 h-100"
             >
+              <a href="https://blossomishymae.github.io/blog" :class="navLinkCss">Blog!</a>
               <NuxtLink to="/gallery" :class="navLinkCss">Gallery!</NuxtLink>
               <NuxtLink to="/portfolio" :class="navLinkCss">Portfolio!</NuxtLink>
             </div>
