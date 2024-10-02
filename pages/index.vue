@@ -25,7 +25,7 @@
       <div class="col-lg-6">
         <div class="d-flex justify-content-center align-items-center mb-4">
           <div style="width: 450px;">
-            <img src="/img/june_2024.png" class="img-fluid"/>
+            <img src="/img/fall_2024.png" class="img-fluid"/>
           </div>
         </div>
       </div>
@@ -36,7 +36,7 @@
     <div class="row" data-aos="fade-right" data-aos-duration="1000">
       <div class="col-lg-6 d-flex justify-content-center">
         <div style="width: 320px;">
-          <img class="img-fluid" src="/img/blossomi_peek.png" />
+          <img class="img-fluid" src="/img/blossomi_uwu_full.png" />
         </div>
       </div>
       <div class="col-lg-6">
@@ -61,7 +61,7 @@
       </div>
       <div class="col-lg-6 d-flex justify-content-center">
         <div style="width: 450px;">
-          <img class="img-fluid" src="/img/may_2024.png"/>
+          <img class="img-fluid" src="/img/headpats.png"/>
         </div>
       </div>
     </div>
@@ -71,7 +71,7 @@
     <div class="row" data-aos="fade-right" data-aos-duration="1000">
       <div class="col-lg-6 d-flex justify-content-center">
         <div style="width: 320px">
-          <img class="img-fluid" src="/img/blossomi_uwu.png"/>
+          <img class="img-fluid" src="/img/blossomi_pout_full.png"/>
         </div>
       </div>
       <div class="col-lg-6">
