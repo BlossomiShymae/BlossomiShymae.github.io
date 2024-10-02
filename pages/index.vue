@@ -61,7 +61,7 @@
       </div>
       <div class="col-lg-6 d-flex justify-content-center">
         <div style="width: 450px;">
-          <img class="img-fluid" src="/img/headpats.png"/>
+          <img class="img-fluid" src="/img/worry.png"/>
         </div>
       </div>
     </div>
