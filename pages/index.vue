@@ -12,13 +12,13 @@
 
           <div class="d-flex flex-wrap gap-4">
             <a class="hover-spin" href="https://discord.gg/chEvEX5J4E">
-              <FontAwesomeIcon :style="{color: 'white'}" :icon="faDiscord" size="4x"/>
+              <FontAwesomeIcon :style="{color: 'black'}" :icon="faDiscord" size="4x"/>
             </a>
             <a class="hover-spin" href="https://reddit.com/u/BlossomiShymae">
-              <FontAwesomeIcon :style="{color: 'white'}" :icon="faReddit" size="4x"/>
+              <FontAwesomeIcon :style="{color: 'black'}" :icon="faReddit" size="4x"/>
             </a>
             <a class="hover-spin" href="https://github.com/BlossomiShymae">
-              <FontAwesomeIcon :style="{color: 'white'}" :icon="faGithub" size="4x"/>
+              <FontAwesomeIcon :style="{color: 'black'}" :icon="faGithub" size="4x"/>
             </a>
           </div>
       </div>
