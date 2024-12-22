@@ -1,10 +1,10 @@
 <template>
-  <div class="p-4">
+  <div>
     <h1>Portfolio</h1>
     <div class="row">
-      <div class="col-lg-4">
+      <div class="col-lg-4 mb-4">
         <div class="d-flex justify-content-center align-items-center" data-aos="fade-left" data-aos-duration="1000">
-          <img src="/img/grrrlcu.png" class="img-fluid" />
+          <img src="/img/grrrlcu.png" class="img-fluid border border-2 border-dark rounded-2" style="box-shadow: 16px 16px black; width: 350px;" />
         </div>
       </div>
       <div class="col-lg-8">
@@ -19,8 +19,8 @@
                 </div>
                 <div class="d-flex gap-2 flex-grow">
                   <div>{{ repository.language }}</div>
-                  <div><FontAwesomeIcon :style="{color: 'white'}" :icon="faStar"/> {{ repository.stargazers_count }}</div>
-                  <div><FontAwesomeIcon :style="{color: 'white'}" :icon="faGitAlt"/> {{ repository.forks_count }}</div>
+                  <div><FontAwesomeIcon :style="{color: 'black'}" :icon="faStar"/> {{ repository.stargazers_count }}</div>
+                  <div><FontAwesomeIcon :style="{color: 'black'}" :icon="faGitAlt"/> {{ repository.forks_count }}</div>
                 </div>
               </div>
               <div class="d-flex ms-4">

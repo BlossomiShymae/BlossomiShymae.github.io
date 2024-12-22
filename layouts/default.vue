@@ -1,20 +1,14 @@
 <template>
   <div class="position-relative vh-100">
-    <div id="tsparticles"></div>
-    <div style="background-color: #000b; backdrop-filter: blur(16px);" class="pb-4">
+    <div class="pb-4">
       <header
       class="sticky-top py-2 mb-4"
       style="position: relative; z-index: 0; background-color: transparent;"
       >
       <nav class="d-flex justify-content-around align-items-center flex-wrap">
             <div class="d-flex align-items-center">
-              <div class="me-2 rounded-circle bg-accent-secondary-20">
-                <NuxtLink to="/secret/thoughts">
-                  <img src="/img/avatar_cute.png" class="rounded-circle p-1" id="favicon" />
-                </NuxtLink>
-              </div>
               <h3 class="fw-light">
-                <NuxtLink to="/" class="text-light text-decoration-none hover-underline">blossomishymae.github.io</NuxtLink>
+                <NuxtLink to="/" class="text-dark text-decoration-none">blossomishymae.github.io</NuxtLink>
               </h3>
             </div>
 
@@ -63,53 +57,5 @@
 </template>
 
 <script lang="ts" setup>
-import { tsParticles } from "@tsparticles/engine";
-import { loadFirePreset } from "@tsparticles/preset-fire";
-
-const navLinkCss = "text-decoration-none text-light fs-5 hover-underline";
-
-await loadFirePreset(tsParticles);
-
-const container = await tsParticles.load({
-  id: "tsparticles",
-  options: {
-    fpsLimit: 40,
-    particles: {
-        number: {
-            value: 25,
-            density: {
-                enable: true,
-            },
-        },
-        color: {
-            value: ["#14a978", "#912bc1", "#77d9ff", "#ffb6c4", "#ffffff"],
-        },
-        opacity: {
-            value: { min: 0.1, max: 0.5 },
-        },
-        size: {
-            value: { min: 40, max: 100 },
-        },
-        move: {
-            enable: true,
-            speed: 4,
-            random: true,
-        },
-    },
-    interactivity: {
-        detectsOn: "window",
-        events: {
-            onClick: {
-                enable: true,
-                mode: "push",
-            },
-        },
-    },
-    background: {
-        image: "radial-gradient(#000000, #000)",
-    },
-  },
-});
-
-container?.play();
+const navLinkCss = "text-decoration-none text-dark fs-5";
 </script>

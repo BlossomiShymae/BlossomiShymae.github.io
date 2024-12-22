@@ -1,11 +1,11 @@
 <template>
-  <div class="p-4">
+  <div>
     <h1>Gallery</h1>
     <div v-for="row in gallery">
       <div class="row">
         <div v-for="image in row" class="col-lg-4 mb-4" data-aos="fade-left" data-aos-duration="1000">
             <div style="width: 320px; position: relative;">
-              <img class="img-fluid gallery-image" :src="image" loading="lazy"/>
+              <img class="img-fluid gallery-image rounded-2 border border-2 border-dark" :src="image" loading="lazy" style="box-shadow: 16px 16px black;"/>
             </div>
         </div>
       </div>
@@ -20,6 +20,7 @@ useHead({
 });
 
 const items = [
+  "/img/winter_2024.png",
   "/img/fall_2024.png",
   "/img/peace.png",
   "/img/reference_aug_2024.png",
