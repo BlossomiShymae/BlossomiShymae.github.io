@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid">
-    <div class="row position-relative" data-aos="fade-left" data-aos-duration="1000">
+    <div class="row position-relative">
       <div class="col-lg-6 mb-4 d-flex flex-column justify-content-center align-items-center">
         <div style="max-width: 650px;" class="m-4">
           <h1 class="display-5 fw-bold mb-0">Blossomi Shymae</h1>
