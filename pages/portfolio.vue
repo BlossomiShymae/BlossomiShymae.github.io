@@ -1,16 +1,15 @@
 <template>
-  <div>
+  <div class="container">
     <h1>Portfolio</h1>
     <div class="row">
       <div class="col-lg-4 mb-4">
-        <div class="d-flex justify-content-center align-items-center" data-aos="fade-left" data-aos-duration="1000">
+        <div class="d-flex justify-content-center align-items-center">
           <img src="/img/grrrlcu.png" class="img-fluid border border-2 border-dark rounded-2" style="box-shadow: 16px 16px black; width: 350px;" />
         </div>
       </div>
       <div class="col-lg-8">
         <div class="d-flex gap-1 flex-column align-content-start justify-items-stretch">
           <div v-for="repository in selectedRepositories"
-            data-aos="fade-left" data-aos-duration="1000"
             class="border-bottom">
             <a :id="'{{ repository.id }}'" :href="repository.html_url" class="text-decoration-none fg-color">
               <div class="d-flex gap-1 justify-content-between align-items-center">

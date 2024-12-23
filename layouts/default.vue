@@ -2,8 +2,8 @@
   <div class="position-relative vh-100">
     <div class="pb-4">
       <header
-      class="sticky-top py-2 mb-4"
-      style="position: relative; z-index: 0; background-color: transparent;"
+      class="sticky-top m-4"
+      style="position: relative; z-index: 5; background-color: transparent;"
       >
       <nav class="d-flex justify-content-around align-items-center flex-wrap">
             <div class="d-flex align-items-center">
@@ -24,8 +24,8 @@
       </nav>
       </header>
 
-      <div class="container">
-          <main role="main" class="pt-3 pb-3">
+      <div>
+          <main role="main">
               <slot></slot>
           </main>
       </div>

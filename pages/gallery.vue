@@ -1,15 +1,14 @@
 <template>
-  <div>
+  <div class="container">
     <h1>Gallery</h1>
-    <div v-for="row in gallery">
-      <div class="row">
-        <div v-for="image in row" class="col-lg-4 mb-4" data-aos="fade-left" data-aos-duration="1000">
+    <div class="d-flex flex-wrap justify-content-around">
+      <div v-for="(item, index) in items" :id="`${index}`" class="gallery-image">
+        <div data-aos="fade-left" data-aos-duration="1000" style="margin: 32px;">
             <div style="width: 320px; position: relative;">
-              <img class="img-fluid gallery-image rounded-2 border border-2 border-dark" :src="image" loading="lazy" style="box-shadow: 16px 16px black;"/>
+              <img class="img-fluid rounded-2 border border-2 border-dark" :src="item" loading="lazy" style="box-shadow: 16px 16px black; object-fit: cover;"/>
             </div>
         </div>
       </div>
-      <div class="divider"></div>
     </div>
   </div>
 </template>
@@ -44,24 +43,18 @@ const items = [
   "/img/trans_elf_gf.png",
   "/img/banner_2.png"
 ];
-
-const chunk = 3;
-let gallery: string[][] = [];
-
-for (let i = 0; i < items.length; i += chunk) {
-  gallery.push(items.slice(i, i + chunk));
-}
 </script>
 
 <style scoped>
 .gallery-image {
   transition: all .5s ease;
-  object-fit: cover;
+  position: relative;
+  z-index: 10;
 }
 
 .gallery-image:hover {
   transform: scale(1.25);
-  position: absolute;
+  position: relative;
   z-index: 1000;
 }
 </style>
