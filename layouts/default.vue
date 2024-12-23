@@ -1,24 +1,24 @@
 <template>
   <div class="position-relative vh-100">
-    <div class="pb-4">
+    <div style="display: flex; min-height: 100vh; flex-direction: column;">
       <header
       class="sticky-top m-4"
       style="position: relative; z-index: 5; background-color: transparent;"
       >
       <nav class="d-flex justify-content-around align-items-center flex-wrap">
             <div class="d-flex align-items-center">
-              <h3 class="fw-light">
+              <h3 class="fw-bold">
                 <NuxtLink to="/" class="text-dark text-decoration-none">blossomishymae.github.io</NuxtLink>
               </h3>
             </div>
 
             <div class="d-flex justify-content-end flex-wrap">
             <div
-              class="d-flex justify-content-end align-items-center gap-3 w-100 h-100"
+              class="d-flex justify-content-end align-items-center w-100 h-100 gap-4"
             >
-              <a href="https://blossomishymae.github.io/blog" :class="navLinkCss">Blog!</a>
-              <NuxtLink to="/gallery" :class="navLinkCss">Gallery!</NuxtLink>
-              <NuxtLink to="/portfolio" :class="navLinkCss">Portfolio!</NuxtLink>
+              <a href="https://blossomishymae.github.io/blog" :class="navLinkCss">Blog</a>
+              <NuxtLink to="/gallery" :class="navLinkCss">Gallery</NuxtLink>
+              <NuxtLink to="/portfolio" :class="navLinkCss">Portfolio</NuxtLink>
             </div>
           </div>
       </nav>
@@ -30,8 +30,36 @@
           </main>
       </div>
 
-      <footer style="background-color: transparent;" class="container rounded p-2 mt-2 mb-4 bg-blur-4">
-          <div class="d-flex justify-content-center">
+      <footer style="background-color: #2A2A2A; color: white; flex: 1;" class="container-fluid p-2 mt-2 pb-4">
+        <div class="d-flex justify-content-around my-4">
+          <div class="d-flex" style="gap: 100px;">
+            <div class="d-flex flex-column gap-2">
+              <h6 class="fw-normal border-bottom">Links</h6>
+              <NuxtLink to="/" :class="footerLinkCss">Home</NuxtLink>
+              <a href="https://darkintaqt.com/" :class="footerLinkCss">DarkIntaqt</a>
+              <a href="https://www.communitydragon.org/" :class="footerLinkCss">CommunityDragon</a>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <h6 class="fw-normal border-bottom">Socials</h6>
+              <a href="https://discord.gg/chEvEX5J4E">
+                <FontAwesomeIcon :style="{color: 'white'}" :icon="faDiscord" size="1x"/>
+              </a>
+              <a href="https://reddit.com/u/BlossomiShymae">
+                <FontAwesomeIcon :style="{color: 'white'}" :icon="faReddit" size="1x"/>
+              </a>
+              <a href="https://github.com/BlossomiShymae">
+                <FontAwesomeIcon :style="{color: 'white'}" :icon="faGithub" size="1x"/>
+              </a>
+            </div>
+          </div>
+          <div>
+            <h6 class="fw-normal border-bottom">Contact</h6>
+            <a href="https://discord.gg/chEvEX5J4E" class="text-decoration-none text-light">
+              <FontAwesomeIcon :style="{color: 'white'}" :icon="faDiscord" size="1x"/> Discord
+            </a>
+          </div>
+        </div>
+          <!-- <div class="d-flex justify-content-center align-items-center m-4">
             <p class="mb-0">
               Made with
               <svg
@@ -50,12 +78,16 @@
               </svg>
               <span class="fw-bold">Nuxt</span>!
             </p>
-          </div>
+          </div> -->
       </footer>
     </div>
   </div>
 </template>
 
 <script lang="ts" setup>
-const navLinkCss = "text-decoration-none text-dark fs-5";
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { faDiscord, faReddit, faGithub } from '@fortawesome/free-brands-svg-icons';
+
+const navLinkCss = "text-decoration-none text-dark fs-5 fw-light";
+const footerLinkCss = "text-decoration-none text-light";
 </script>

@@ -1,11 +1,10 @@
 <template>
-  <div class="container">
-    <h1>Gallery</h1>
+  <div class="container-fluid mb-4">
     <div class="d-flex flex-wrap justify-content-around">
       <div v-for="(item, index) in items" :id="`${index}`" class="gallery-image">
-        <div data-aos="fade-left" data-aos-duration="1000" style="margin: 32px;">
-            <div style="width: 320px; position: relative;">
-              <img class="img-fluid rounded-2 border border-2 border-dark" :src="item" loading="lazy" style="box-shadow: 16px 16px black; object-fit: cover;"/>
+        <div data-aos="fade-left" data-aos-duration="1000" style="margin: 32px; width: 320px; position: relative;" >
+            <div class="ratio ratio-4x3">
+              <LdrsImg img-class="img-fluid rounded-2 border border-2 border-dark" :src="item" img-style="box-shadow: 16px 16px black; object-fit: contain;"/>
             </div>
         </div>
       </div>

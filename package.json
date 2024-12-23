@@ -21,6 +21,7 @@
     "aos": "^2.3.4",
     "axios": "^1.4.0",
     "localstorage-slim": "^2.7.1",
-    "nuxt-app": "file:"
+    "nuxt-app": "file:",
+    "ldrs": "^1.0.2"
   }
 }

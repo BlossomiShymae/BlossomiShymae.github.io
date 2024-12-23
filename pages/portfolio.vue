@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1>Portfolio</h1>
-    <div class="row">
+    <div class="row mb-4">
       <div class="col-lg-4 mb-4">
         <div class="d-flex justify-content-center align-items-center">
           <img src="/img/grrrlcu.png" class="img-fluid border border-2 border-dark rounded-2" style="box-shadow: 16px 16px black; width: 350px;" />
