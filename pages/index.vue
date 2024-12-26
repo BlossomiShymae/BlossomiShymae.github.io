@@ -103,12 +103,6 @@ onMounted(() => {
       duration: 1000,
       easing: "easeOutExpo",
       delay: 1000
-    }).add({
-      targets: '.ml11',
-      opacity: 0,
-      duration: 1000,
-      easing: "easeOutExpo",
-      delay: 15000
     });
   });
 </script>
