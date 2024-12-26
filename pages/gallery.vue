@@ -18,6 +18,7 @@ useHead({
 });
 
 const items = [
+  "/img/shymae_pose.png",
   "/img/winter_2024.png",
   "/img/fall_2024.png",
   "/img/peace.png",

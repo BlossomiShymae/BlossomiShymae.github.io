@@ -31,15 +31,15 @@
       </div>
 
       <footer style="background-color: #2A2A2A; color: white; flex: 1;" class="container-fluid p-2 mt-2 pb-4">
-        <div class="d-flex justify-content-around my-4">
-          <div class="d-flex" style="gap: 100px;">
-            <div class="d-flex flex-column gap-2">
+        <div class="d-flex flex-wrap justify-content-around my-4">
+          <div class="d-flex flex-wrap">
+            <div class="d-flex flex-column gap-2 m-4">
               <h6 class="fw-normal border-bottom">Links</h6>
               <NuxtLink to="/" :class="footerLinkCss">Home</NuxtLink>
               <a href="https://darkintaqt.com/" :class="footerLinkCss">DarkIntaqt</a>
               <a href="https://www.communitydragon.org/" :class="footerLinkCss">CommunityDragon</a>
             </div>
-            <div class="d-flex flex-column gap-2">
+            <div class="d-flex flex-column gap-2 m-4">
               <h6 class="fw-normal border-bottom">Socials</h6>
               <a href="https://discord.gg/chEvEX5J4E">
                 <FontAwesomeIcon :style="{color: 'white'}" :icon="faDiscord" size="1x"/>
@@ -52,7 +52,7 @@
               </a>
             </div>
           </div>
-          <div>
+          <div class="m-4">
             <h6 class="fw-normal border-bottom">Contact</h6>
             <a href="https://discord.gg/chEvEX5J4E" class="text-decoration-none text-light">
               <FontAwesomeIcon :style="{color: 'white'}" :icon="faDiscord" size="1x"/> Discord
