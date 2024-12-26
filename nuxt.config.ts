@@ -1,6 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: false,
+  modules: ['@hypernym/nuxt-anime'],
+
   app: {
     pageTransition: {
       name: "page",
@@ -45,7 +47,10 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   experimental: {
     payloadExtraction: false,
   },
+
+  compatibilityDate: "2024-12-25",
 });
