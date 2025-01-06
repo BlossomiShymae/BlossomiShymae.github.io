@@ -34,7 +34,7 @@
       <div class="col-lg-6">
         <div class="d-flex justify-content-center align-items-center">
           <div>
-            <img src="/img/xmas_hero.png" class="img-fluid"/>
+            <img src="/img/new_year.png" class="img-fluid"/>
           </div>
         </div>
       </div>
