@@ -34,7 +34,7 @@
       <div class="col-lg-6">
         <div class="d-flex justify-content-center align-items-center">
           <div>
-            <img src="/img/new_year.png" class="img-fluid"/>
+            <img src="/img/2025_hero.png" class="img-fluid"/>
           </div>
         </div>
       </div>
@@ -47,7 +47,7 @@
       <div class="row" data-aos="fade-right" data-aos-duration="1000">
         <div class="col-lg-6 d-flex justify-content-center mb-4">
           <div class="ratio ratio-1x1" style="width: 450px;">
-            <img class="rounded-2 border border-2 border-dark" src="/img/shymae_pose.png" style="box-shadow: 16px 16px 0px black; object-fit: cover; object-position: right;"/>
+            <img class="rounded-2 border border-2 border-dark" src="/img/boymodder.png" style="box-shadow: 16px 16px 0px black; object-fit: cover; object-position: right;"/>
           </div>
         </div>
         <div class="col-lg-6">

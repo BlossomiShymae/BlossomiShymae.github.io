@@ -18,6 +18,8 @@ useHead({
 });
 
 const items = [
+  "/img/2025_hero.png",
+  "/img/boymodder.png",
   "/img/new_year.png",
   "/img/shymae_pose.png",
   "/img/winter_2024.png",
